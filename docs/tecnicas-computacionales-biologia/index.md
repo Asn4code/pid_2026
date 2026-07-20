@@ -36,11 +36,14 @@ ejecución local o en la nube y la bibliografía de consulta.
     Los enlaces se activarán a medida que cada módulo supere la revisión docente.
     El Campus Virtual indicará qué material corresponde a cada sesión.
 
-### Material en validación docente
+### TC01 en validación docente
 
-- **TC01-S01 · Entorno, rutas y navegación segura:**
-  [paquete de desarrollo](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC01-S01)
-  · [abrir en Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC01-S01/notebooks/TC01-S01_colab.ipynb)
+- **Práctica completa S01-S03:**
+  [materiales, datos y scripts](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC01)
+  · [paquete para Linux](https://github.com/Asn4code/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/paquete/TC01_starter_v0.3.0.tar.gz)
+  · [abrir en Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/notebooks/TC01_colab.ipynb)
+- **Comprobación aislada de S01:**
+  [material de diagnóstico](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC01-S01)
 
 Este enlace apunta a la rama `desarrollo` mientras se completa la validación.
 La versión indicada en el Campus Virtual será siempre la que deba utilizarse.
