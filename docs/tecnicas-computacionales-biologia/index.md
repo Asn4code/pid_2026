@@ -36,6 +36,10 @@ ejecución local o en la nube y la bibliografía de consulta.
     Los enlaces se activarán a medida que cada módulo supere la revisión docente.
     El Campus Virtual indicará qué material corresponde a cada sesión.
 
+Los módulos se enlazarán cuando su identificación y su secuencia curricular
+hayan sido revisadas. La versión indicada en el Campus Virtual será siempre la
+que deba utilizarse.
+
 ## Forma de trabajo
 
 1. Leer el capítulo y responder la activación previa.
