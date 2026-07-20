@@ -36,6 +36,15 @@ ejecución local o en la nube y la bibliografía de consulta.
     Los enlaces se activarán a medida que cada módulo supere la revisión docente.
     El Campus Virtual indicará qué material corresponde a cada sesión.
 
+### Material en validación docente
+
+- **TC01-S01 · Entorno, rutas y navegación segura:**
+  [paquete de desarrollo](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC01-S01)
+  · [abrir en Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC01-S01/notebooks/TC01-S01_colab.ipynb)
+
+Este enlace apunta a la rama `desarrollo` mientras se completa la validación.
+La versión indicada en el Campus Virtual será siempre la que deba utilizarse.
+
 ## Forma de trabajo
 
 1. Leer el capítulo y responder la activación previa.
