@@ -5,8 +5,8 @@ Repositorio de apoyo para las asignaturas **Biología Computacional** y
 
 ## Asignaturas
 
-- [Biología Computacional](cursos/biologia-computacional/README.md)
-- [Técnicas Computacionales en Biología](cursos/tecnicas-computacionales-en-biologia/README.md)
+- [Técnicas Computacionales en Biología](docs/tecnicas-computacionales-biologia/index.md)
+- [Biología Computacional](docs/biologia-computacional/index.md)
 
 ## Uso del repositorio
 
@@ -28,3 +28,5 @@ redistribuirse aquí.
 
 La estructura y los contenidos corresponden al curso 2026-2027 y se irán
 publicando por módulos.
+
+El portal navegable se publica mediante GitHub Pages desde la rama `main`.

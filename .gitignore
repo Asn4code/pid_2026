@@ -42,6 +42,9 @@ venv/
 # Office lock files
 .~lock.*#
 
+# Generated documentation site
+/site/
+
 # Local authoring corpus and internal project records
 # These sources remain available to the teaching team but are not distributed
 # through the public student repository.

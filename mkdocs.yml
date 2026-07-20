@@ -1,0 +1,49 @@
+site_name: Materiales docentes 2026-2027
+site_description: Biología Computacional y Técnicas Computacionales en Biología
+site_url: https://asn4code.github.io/pid_2026/
+repo_url: https://github.com/Asn4code/pid_2026
+repo_name: Asn4code/pid_2026
+edit_uri: edit/desarrollo/docs/
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: es
+  icon:
+    logo: material/dna
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Inicio: index.md
+  - Técnicas Computacionales en Biología: tecnicas-computacionales-biologia/index.md
+  - Biología Computacional: biologia-computacional/index.md
+  - Entorno de trabajo: entorno-de-trabajo.md
+
+plugins:
+  - search:
+      lang: es
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+copyright: Curso 2026-2027 · Universidad Nebrija
