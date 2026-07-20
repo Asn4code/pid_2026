@@ -45,7 +45,9 @@ ejecución local o en la nube y la bibliografía de consulta.
 - **Comprobación aislada de S01:**
   [material de diagnóstico](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC01-S01)
 
-Este enlace apunta a la rama `desarrollo` mientras se completa la validación.
+Los enlaces de TC01 apuntan a la rama `desarrollo` mientras se completa la
+validación. Los módulos siguientes se enlazarán cuando su identificación y su
+secuencia curricular hayan sido revisadas.
 La versión indicada en el Campus Virtual será siempre la que deba utilizarse.
 
 ## Forma de trabajo

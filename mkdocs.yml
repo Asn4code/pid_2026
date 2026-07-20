@@ -26,7 +26,9 @@ theme:
 nav:
   - Inicio: index.md
   - Técnicas Computacionales en Biología: tecnicas-computacionales-biologia/index.md
-  - Biología Computacional: biologia-computacional/index.md
+  - Biología Computacional:
+    - biologia-computacional/index.md
+    - BC01 - Introducción, entorno y reproducibilidad: biologia-computacional/bc01.md
   - Entorno de trabajo: entorno-de-trabajo.md
 
 plugins:
