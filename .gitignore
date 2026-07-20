@@ -30,6 +30,7 @@ venv/
 *.fls
 *.lof
 *.log
+!materiales/tecnicas-computacionales-biologia/TC01/datos/corpus/*.log
 *.lot
 *.nav
 *.out
