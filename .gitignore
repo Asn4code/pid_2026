@@ -1,0 +1,65 @@
+# Local agent and editor state
+.agents/
+.codex/
+.idea/
+.vscode/
+*~
+~$*
+.DS_Store
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# LaTeX intermediate files (keep source and final PDFs)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Office lock files
+.~lock.*#
+
+# Local authoring corpus and internal project records
+# These sources remain available to the teaching team but are not distributed
+# through the public student repository.
+/BiologIA Computacional-legacy/
+/BiologIA Computacional-*.zip
+/IA_Universidad_Sepulveda.pdf
+/alg/
+/convocatoria/
+/corpus_procesado/
+/guias_docentes/
+/prompt-1.md
+/propuesta/
+/proyecto_innovacion/
+/referencias_externas/
+/tecnicas computacionales en biologIA-legacy/
+/tecnicas computacionales en biologIA-*.zip
+/tecnicas-comp-legacy/
+/temas_biologia_computacional/
+/temas_tecnicas_computacionales_biologia/
+/tools/
+/uso_ia_univ/
