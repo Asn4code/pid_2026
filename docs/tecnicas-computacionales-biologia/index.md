@@ -17,14 +17,15 @@ description: Materiales, prácticas y recursos de la asignatura.
 | Semana | Módulos y foco | Sesiones |
 |---:|---|:---:|
 | 1-2 | **TC01.** Linux, Shell, expresiones regulares y formatos | S01-S03 |
-| 2-3 | **TC02.** Algoritmos, representación y complejidad | S04-S05 |
-| 3-4 | **TC03.** Variables y estructuras lineales | S06-S07 |
-| 4-5 | **TC04.** Hash, árboles y grafos | S08-S09 |
-| 5-7 | **TC05.** Búsqueda y ordenación | S10-S13 |
-| 7-8 | **TC06.** Teoría de la información | S14-S16 |
-| 9-10 | **TC07.** Clasificación probabilística, Markov y HMM | S17-S19 |
-| 10-11 | **TC08.** Alineamiento dinámico y BLAST | S20-S21 |
-| 11-12 | **TC09.** Redes neuronales para bioinformática | S22-S24 |
+| 2-3 | **TC02.** Bash avanzado: bucles, sed y awk | S04-S05 |
+| 3-4 | **TC03.** Algoritmos, representación y complejidad | S06-S07 |
+| 4-5 | **TC04.** Variables y estructuras lineales | S08-S09 |
+| 5-6 | **TC05.** Hash, árboles y grafos | S10-S11 |
+| 6-7 | **TC06.** Búsqueda y ordenación | S12-S14 |
+| 8-9 | **TC07.** Teoría de la información | S15-S17 |
+| 9-10 | **TC08.** Clasificación probabilística, Markov y HMM | S18-S20 |
+| 10-11 | **TC09.** Alineamiento dinámico y BLAST | S21-S22 |
+| 11-12 | **TC10.** Redes neuronales para bioinformática | S23-S24 |
 
 ## Material de cada módulo
 
@@ -36,9 +37,36 @@ ejecución local o en la nube y la bibliografía de consulta.
     Los enlaces se activarán a medida que cada módulo supere la revisión docente.
     El Campus Virtual indicará qué material corresponde a cada sesión.
 
-Los módulos se enlazarán cuando su identificación y su secuencia curricular
-hayan sido revisadas. La versión indicada en el Campus Virtual será siempre la
-que deba utilizarse.
+### Módulos en validación docente
+
+Cada módulo enlaza sus materiales, el paquete para Linux y el cuaderno de Google
+Colab en la rama `desarrollo`.
+
+- **TC01 · Linux, Bash y expresiones regulares (S01-S03):**
+  [materiales](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC01)
+  · [paquete para Linux](https://github.com/Asn4code/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/paquete/TC01_starter_v0.3.0.tar.gz)
+  · [Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/notebooks/TC01_colab.ipynb)
+  · [diagnóstico aislado S01](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC01-S01)
+- **TC02 · Bash avanzado: bucles, sed y awk (S04-S05):**
+  [materiales](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC02)
+  · [paquete para Linux](https://github.com/Asn4code/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC02/paquete/TC02_starter_v0.1.0.tar.gz)
+  · [Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC02/notebooks/TC02_colab.ipynb)
+- **TC03 · Algoritmos, representación y complejidad (S06-S07):**
+  [materiales](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC03)
+  · [paquete para Linux](https://github.com/Asn4code/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC03/paquete/TC03_starter_v0.1.0.tar.gz)
+  · [Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC03/notebooks/TC03_colab.ipynb)
+- **TC04 · Variables y estructuras lineales (S08-S09):**
+  [materiales](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC04)
+  · [paquete para Linux](https://github.com/Asn4code/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC04/paquete/TC04_starter_v0.1.0.tar.gz)
+  · [Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC04/notebooks/TC04_colab.ipynb)
+- **TC05 · Hash, árboles y grafos (S10-S11):**
+  [materiales](https://github.com/Asn4code/pid_2026/tree/desarrollo/materiales/tecnicas-computacionales-biologia/TC05)
+  · [paquete para Linux](https://github.com/Asn4code/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC05/paquete/TC05_starter_v0.1.0.tar.gz)
+  · [Google Colab](https://colab.research.google.com/github/Asn4code/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC05/notebooks/TC05_colab.ipynb)
+
+Los enlaces apuntan a la rama `desarrollo` mientras se completa la validación.
+Los módulos posteriores (TC06-TC10) se enlazarán al superar su revisión.
+La versión indicada en el Campus Virtual será siempre la que deba utilizarse.
 
 ## Forma de trabajo
 
