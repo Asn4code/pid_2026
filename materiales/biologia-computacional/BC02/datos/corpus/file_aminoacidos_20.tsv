@@ -1,0 +1,21 @@
+nombre	abreviatura	codigo	clasificacion	descripcion
+Glicina	Gly	G	No Polar, Alifático	La cadena lateral es solo un H; el único aminoácido aquiral. Aporta flexibilidad conformacional.
+Alanina	Ala	A	No Polar, Alifático	Cadena lateral metilo (-CH3). Pequeña e hidrofóbica.
+Valina	Val	V	No Polar, Alifático (BCAA)	Cadena ramificada hidrofóbica. Esencial para la estructura proteica.
+Leucina	Leu	L	No Polar, Alifático (BCAA)	Cadena ramificada hidrofóbica, más grande que la valina. Común en núcleos hidrofóbicos.
+Isoleucina	Ile	I	No Polar, Alifático (BCAA)	Isómero de la leucina, con cadena ramificada hidrofóbica.
+Metionina	Met	M	No Polar, Tioéter	Contiene azufre en un grupo tioéter. Suele ser el primer aminoácido en la síntesis de proteínas.
+Prolina	Pro	P	No Polar, Cíclico	Iminoácido. La cadena lateral forma un anillo con el grupo amino, creando rigidez.
+Fenilalanina	Phe	F	No Polar, Aromático	Contiene un anillo de benceno. Muy hidrofóbica.
+Triptofano	Trp	W	No Polar, Aromático	Contiene un anillo de indol. Es el aminoácido más grande. Precursor de la serotonina.
+Tirosina	Tyr	Y	Polar, Aromático	Anillo de fenol (aromático con un grupo -OH). Puede formar puentes de hidrógeno. Precursor de hormonas.
+Serina	Ser	S	Polar, Hidroxilo	Contiene un grupo hidroxilo (-CH2OH). Puede ser fosforilada.
+Treonina	Thr	T	Polar, Hidroxilo	Contiene un grupo hidroxilo. Esencial. Puede ser fosforilada.
+Cisteina	Cys	C	Polar, Tiol	Contiene un grupo sulfhidrilo (-SH). Puede formar puentes disulfuro covalentes.
+Asparagina	Asn	N	Polar, Amida	Derivado amida del ácido aspártico. Aceptor/donador de puentes de hidrógeno.
+Glutamina	Gln	Q	Polar, Amida	Derivado amida del ácido glutámico. Aceptor/donador de puentes de hidrógeno.
+Acido Aspartico	Asp	D	Acido, Carga Negativa	Cadena lateral con un grupo carboxilo. Cargado negativamente a pH 7.4. También llamado Aspartato.
+Acido Glutamico	Glu	E	Acido, Carga Negativa	Cadena lateral con un grupo carboxilo. Cargado negativamente a pH 7.4. También llamado Glutamato.
+Lisina	Lys	K	Basico, Carga Positiva	Cadena lateral con grupo amino protonado a pH fisiológico; carga neta positiva.
+Arginina	Arg	R	Basico, Carga Positiva	Cadena lateral con grupos amino protonados a pH fisiológico; carga neta positiva.
+Histidina	His	H	Basico, Carga Positiva	A pH fisiológico (~7.4) existe en equilibrio entre forma protonada (positiva) y desprotonada (neutra).

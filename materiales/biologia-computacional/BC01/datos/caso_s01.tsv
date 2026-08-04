@@ -1,0 +1,6 @@
+comando	descripción	resultado esperado	error detectado
+ls /datos/	Muestra contenido de /datos/	"no such file or directory"	PATH incorrecto: /datos/ en vez de /home/datos/
+echo $PATH	Muestra ruta de búsqueda de ejecutables	lista de directorios separados por :	sin $ antes del nombre de variable
+cat /home/datos/missing.fasta	Intenta leer un archivo inexistente	"no such file"	nombró mal el fichero (missing en vez de mini)
+wc -l datos.txt	Cuenta líneas de datos.txt	0 líneas (archivo vacío o no existe)	el archivo tiene extensión .tsv, no .txt
+grep "FASTA" datos.tsv	Busca FASTA en el fichero de datos	0 resultados	busca en el archivo equivocado (mini.tsv, no datos.tsv)

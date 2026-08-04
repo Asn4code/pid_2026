@@ -1,0 +1,191 @@
+# Biología Computacional — BC02: Bioquímica esencial como modelo computable
+
+| Campo | Valor |
+|---|---|
+| Versión | 0.1.0 |
+| Responsable | Álvaro Serrano Navarro |
+| Fecha | 2026-08-03 |
+| Asignatura | Biología Computacional |
+| Módulo | BC02 |
+| Sesión(es) | S2 |
+| Tipo de sesión | T |
+| Resultados de guía | K5, H7, C3, C7 |
+| Evidencia | Tabla de aminoácidos como modelo computable; interpretación de representaciones |
+| Diapositivas | `temas_biologia_computacional/20250911_bq_esencial.pptx` |
+| Uso de IA | A (núcleo conceptual), B (después de verificación) |
+
+---
+
+## Pregunta guía
+
+¿Qué información se pierde cuando una molécula biológica se convierte en un modelo computable?
+
+## Objetivo
+
+Al finalizar el módulo, cada estudiante deberá ser capaz de:
+
+- [ ] Representar un aminoácido como datos tabulares (código, masa, pI, hidrofobicidad, clasificación).
+- [ ] Interpretar representaciones alternativas (nombre completo, abreviatura de 3 letras, código de 1 letra, cadena lateral, masa) y describir qué información se retiene y cuál se pierde.
+- [ ] Calcular la masa aproximada de un péptido a partir de sus residuos y del enlace peptídico.
+- [ ] Verificar la integridad de los datos con checksums SHA-256.
+
+## Preguntas de recuperación y predicción
+
+Antes de la sesión, responde individualmente:
+
+1. ¿Qué sabes ya sobre la información que contiene la secuencia de una proteína?
+2. ¿Cómo calcularías la masa de una proteína corta a partir de su secuencia?
+
+> **Predicción sin IA:** Escribe tu respuesta antes de consultar herramientas de inteligencia artificial.
+
+## Dependencias
+
+| Herramienta | Versión | Notas |
+|---|---|---|
+| Bash | 4+ | Shell estándar de Linux |
+| sha256sum | coreutils | Verificación de integridad de datos |
+| column | coreutils | Formateo de tablas TSV |
+| Python | 3.9+ | Solo en el cuaderno Colab |
+
+## Entorno de trabajo
+
+### Local (Linux)
+
+```bash
+# 1. Descomprimir el starter package
+tar -xzf paquete/BC02_starter_v0.1.0.tar.gz
+cd BC02_starter
+
+# 2. Preparar el entorno de trabajo
+bash src/preparar_practica.sh
+
+# 3. Verificar integridad de los datos
+cd datos
+sha256sum -c SHA256SUMS
+sha256sum -c MANIFEST.sha256
+cd ..
+
+# 4. Ejecutar la práctica (ver sección "Práctica completa")
+
+# 5. Verificar la entrega
+bash src/verificar_entrega.sh
+```
+
+### Google Colab
+
+Abre el cuaderno `notebooks/BC02_colab.ipynb` en Google Colab. El cuaderno descarga automáticamente el paquete starter y reproduce los mismos pasos que en local.
+
+## Caso mínimo
+
+El archivo `datos/mini.tsv` contiene 7 aminoácidos (Glicina, Alanina, Valina, Leucina, Serina, Ácido Glutámico y Lisina) con las columnas `nombre abreviatura codigo masa pi hidrofobicidad clasificacion`. Es un caso pequeño para probar el flujo completo sin consumir tiempo de cómputo.
+
+```bash
+# Ver el caso mínimo como tabla
+cat datos/mini.tsv | column -t -s$'\t'
+
+# Verificar integridad de los datos
+cd datos
+sha256sum -c SHA256SUMS
+sha256sum -c MANIFEST.sha256
+```
+
+## Práctica completa
+
+### Paso 1: Exploración del entorno
+
+Ejecuta el smoke test y comprueba que el entorno está completo:
+
+```bash
+bash src/smoke_test.sh
+```
+
+La salida debe mostrar `BC02_SMOKE_TEST_OK`.
+
+### Paso 2: Verificación de los datos
+
+```bash
+cd datos
+sha256sum -c SHA256SUMS
+sha256sum -c MANIFEST.sha256
+cd ..
+```
+
+Todos los archivos deben mostrar `OK` (si algún checksum no coincide, el proceso de datos está roto: no continúes).
+
+### Paso 3: Análisis del caso de representaciones
+
+`datos/caso_s02.tsv` muestra 6 representaciones de un mismo aminoácido (nombre completo, abreviatura de 3 letras, código de 1 letra, solo cadena lateral, solo masa y secuencia solo). Para cada una, anota qué información se retiene y cuál se pierde:
+
+```bash
+cat datos/caso_s02.tsv | column -t -s$'\t'
+```
+
+Registra tu interpretación en `entrega/plantilla_pruebas.tsv`.
+
+### Paso 4: Cálculo de masa de un péptido
+
+Lee la nota de clase sobre el enlace peptídico:
+
+```bash
+cat datos/corpus/file_enlace_peptidico.md
+```
+
+Calcula la masa de la secuencia GAVSK: suma las masas de G (75.07), A (89.09), V (117.15), S (105.09) y K (146.19), y añade 18.015 Da por el enlace peptídico. Resultado esperado: ≈ 550.61 Da.
+
+### Paso 5: Interpretación
+
+Responde en `entrega/plantilla_evidencia.md`:
+
+- ¿Qué representación de un aminoácido usarías en una secuencia de proteína y por qué?
+- ¿Qué información biológica se pierde al reducir un aminoácido a una fila de una tabla?
+- ¿Por qué la masa de un péptido no es simplemente la suma de las masas de sus residuos?
+
+## Validación
+
+Ejecuta los scripts de verificación:
+
+```bash
+# Verificar entorno y estructura
+bash src/smoke_test.sh
+
+# Verificar estructura de entrega
+bash src/verificar_entrega.sh
+```
+
+La salida debe mostrar `BC02_SMOKE_TEST_OK` y `BC02_SUBMISSION_TESTS_OK`.
+
+## README del estudiante
+
+Crea tu propia explicación en `entrega/README.md` siguiendo la plantilla:
+
+```bash
+cp entrega/plantilla_README.md entrega/README.md
+# Edita el archivo con tus respuestas
+```
+
+## Paridad local / nube
+
+| Aspecto | Local | Colab |
+|---|---|---|
+| Datos | `datos/` (mismo checksum) | Descargados automáticamente |
+| Scripts | `src/` | Copiados en celdas |
+| Salida | Mismo formato | Mismo formato |
+| Entrega | `entrega/` | `entrega/` |
+
+## Checklist de verificación
+
+Antes de entregar, verifica que cumples los 9 criterios de "módulo listo":
+
+- [ ] Capítulo narrativo terminado y PDF accesible generado.
+- [ ] Correspondencia con guía, resultados y sesiones comprobada.
+- [ ] Diapositivas seleccionadas como apoyo, no como único contenido.
+- [ ] Predicción, ejemplo, práctica y fallo/contraste probados.
+- [ ] Ejecución local/nube equivalente o contingencia institucional/precalculada.
+- [ ] Tarea, rúbrica o evidencia formativa configurada.
+- [ ] Vista de estudiante, enlaces, referencias y accesibilidad revisados.
+- [ ] Versión, responsable y fecha registrados.
+- [ ] Datos verificados con checksums (`sha256sum -c`).
+
+---
+
+*Documento generado automáticamente por `generate_module_skeleton.sh` y completado con los datos verificados del módulo.*
