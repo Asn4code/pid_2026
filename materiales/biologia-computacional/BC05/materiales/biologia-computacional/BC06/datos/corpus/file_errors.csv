@@ -1,0 +1,4 @@
+error_type,description,detection,impact
+GC_bias,Cobertura desigual en regiones alto/bajo GC,Coverage vs GC plot,Datos perdidos
+PCR_dup,Multiples copies de misma mol,UMI deduplication,Sobreestimacion variantes
+index_hopping,Admision de reads entre muestras,Demultiplexing,Mix de muestras

@@ -1,0 +1,6 @@
+variant_id	position	type	effect	clinical_impact	source
+var_001	5240736	missense	GLU>VAL	VUS	in_silico
+var_002	5240838	nonsense	TRP>STOP	likely_pathogenic	in_silico
+var_003	5238932	synonymous	silent	benign	in_silico
+var_004	5239567	intronic	splice_region	uncertain	in_silico
+var_005	5241000	3_prime_variant	UTR	benign	in_silico

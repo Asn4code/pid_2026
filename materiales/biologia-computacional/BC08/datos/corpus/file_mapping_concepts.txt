@@ -1,0 +1,6 @@
+# Index types for mapping (BWA, Bowtie2)
+# BWT: Burrows-Wheeler Transform
+# FM-index: BWT + suffix array + occ counts
+# Hash index: k-mer table (minimap2)
+# DAWG: multiplexing and pangenomes
+# Key params: max_mismatches, read_length, paired_end, soft_clip
