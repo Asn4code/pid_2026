@@ -44,7 +44,7 @@ nav:
   - Técnicas Computacionales en Biología:
     - tecnicas-computacionales-biologia/index.md
     - TC01 - Linux, Shell, expresiones regulares: tecnicas-computacionales-biologia/tc01.md
-    - "Bash avanzado": tecnicas-computacionales-biologia/tc02.md
+    - "TC02 - Bash avanzado: bucles, sed y awk": tecnicas-computacionales-biologia/tc02.md
     - TC03 - Algoritmos, representación y complejidad: tecnicas-computacionales-biologia/tc03.md
     - TC04 - Variables y estructuras lineales: tecnicas-computacionales-biologia/tc04.md
     - TC05 - Hash, árboles y grafos: tecnicas-computacionales-biologia/tc05.md
