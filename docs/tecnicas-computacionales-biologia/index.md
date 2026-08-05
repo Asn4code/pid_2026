@@ -27,15 +27,20 @@ description: Materiales, prácticas y recursos de la asignatura.
 | 10-11 | **TC09.** Alineamiento dinámico y BLAST | S21-S22 |
 | 11-12 | **TC10.** Redes neuronales para bioinformática | S23-S24 |
 
-## Material de cada módulo
+## Materiales de los Módulos
 
-Cada módulo reunirá en una misma página el capítulo PDF, la presentación, la
-práctica individual, los scripts y datos necesarios, las instrucciones de
-ejecución local o en la nube y la bibliografía de consulta.
+| Módulo | Materiales y Recursos |
+|:---:|---|
+| **TC01** | [Módulo](materiales/tecnicas-computacionales-biologia/TC01/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/paquete/TC01.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/notebooks/TC01.ipynb) |
+| **TC02** | [Módulo](materiales/tecnicas-computacionales-biologia/TC02/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC02/paquete/TC02.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC02/notebooks/TC02.ipynb) |
+| **TC03** | [Módulo](materiales/tecnicas-computacionales-biologia/TC03/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC03/paquete/TC03.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC03/notebooks/TC03.ipynb) |
+| **TC04** | [Módulo](materiales/tecnicas-computacionales-biologia/TC04/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC04/paquete/TC04.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC04/notebooks/TC04.ipynb) |
+| **TC05** | [Módulo](materiales/tecnicas-computacionales-biologia/TC05/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC05/paquete/TC05.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC05/notebooks/TC05.ipynb) |
+| **TC06** | [Módulo](materiales/tecnicas-computacionales-biologia/TC06/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC06/paquete/TC06.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC06/notebooks/TC06.ipynb) |
+| **TC07** | [Módulo](materiales/tecnicas-computacionales-biologia/TC07/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC07/paquete/TC07.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC07/notebooks/TC07.ipynb) |
+| **TC08** | [Módulo](materiales/tecnicas-computacionales-biologia/TC08/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC08/paquete/TC08.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC08/notebooks/TC08.ipynb) |
+| **TC09** | [Módulo](materiales/tecnicas-computacionales-biologia/TC09/index.md) · [Paquete](https://github.com/anomalyco/pid/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC09/paquete/TC09.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC09/notebooks/TC09.ipynb) |
 
-!!! info "Publicación progresiva"
-    Los enlaces se activarán a medida que cada módulo supere la revisión docente.
-    El Campus Virtual indicará qué material corresponde a cada sesión.
 
 ### Módulos en validación docente
 

@@ -67,3 +67,10 @@ venv/
 /temas_tecnicas_computacionales_biologia/
 /tools/
 /uso_ia_univ/
+
+# Generated artifacts and student submissions
+/resultados/
+
+# Local opencode state
+.opencode/
+.scratch_test/
