@@ -1,0 +1,4 @@
+# AlphaFold predictions:
+# pLDDT > 90: alta confianza
+# pLDDT 50-90: media confianza
+# pLDDT < 50: baja confianza (disorder)

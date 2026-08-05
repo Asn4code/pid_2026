@@ -1,0 +1,7 @@
+residue	chain	type	distance_angstrom	interaction_type
+ALA55	A	hydrophobic	3.2	van_der_waals
+ASP98	A	charged	2.8	ionic
+GLU102	A	hydrophilic	3.5	h_bond
+TYR142	A	hydrophobic	4.0	stacking
+LEU145	A	hydrophobic	3.8	van_der_waals
+SER156	A	hydrophilic	3.0	h_bond
