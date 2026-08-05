@@ -23,7 +23,8 @@ hide:
 <div class="course-grid" markdown="span">
   <a class="course-card course-card--tech" href="tecnicas-computacionales-biologia/">
     <span class="course-card__icon">:material-code-braces:</span>
-    <span class="course-card__meta">12 semanas · 24 sesiones</span>
+    <span class="course-card__meta">9 módulos · 24 sesiones</span>
+    <span class="course-card__meta">✓ 9/9</span>
     <strong>Técnicas Computacionales en Biología</strong>
     <span class="course-card__description">
       Programación, algoritmos, estructuras de datos y métodos bioinformáticos.
@@ -33,7 +34,8 @@ hide:
 
   <a class="course-card course-card--bio" href="biologia-computacional/">
     <span class="course-card__icon">:material-dna:</span>
-    <span class="course-card__meta">12 semanas · 24 sesiones</span>
+    <span class="course-card__meta">14 módulos · 24 sesiones</span>
+    <span class="course-card__meta">✓ 14/14</span>
     <strong>Biología Computacional</strong>
     <span class="course-card__description">
       Datos moleculares, genómica, evolución, estructura y análisis reproducible.
