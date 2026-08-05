@@ -1,0 +1,7 @@
+technology	read_length	paired	platform	error_profile
+Sanger	~1000	no	ABI 3730	substitution
+Illumina MiSeq	2x300	yes	Illumina	sub+indel
+Illumina NovaSeq	2x250	yes	Illumina	sub+indel
+Ion Torrent	400	no	Thermo	indel en homopolimeros
+PacBio CLR	10000+	no	PacBio	sub aleatoria
+ONT	10000+	yes	Nanopore	sub+indel

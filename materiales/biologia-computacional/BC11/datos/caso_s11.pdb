@@ -1,0 +1,8 @@
+HEADER    HEMOGLOBIN SUBUNIT BETA SIMULATED
+COMPND    1 HEMOGLOBIN BETA SUBUNIT
+COMPND    2 CHAIN: B
+HETATM    1  CA  ALA A   1       1.000   1.000   1.000  1.00  0.00           C
+HETATM    2  N   ALA A   2       2.000   2.000   2.000  1.00  0.00           N
+HETATM    3  CA  LEU A   3       3.000   3.000   3.000  1.00  0.00           C
+TER     4       LEU A   3
+END

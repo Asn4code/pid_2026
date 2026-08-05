@@ -1,0 +1,7 @@
+# Preparacion librerias NGS:
+# 1. Fragmentacion (sonica/encimatica)
+# 2. End repair
+# 3. Adiccion de adaptadores
+# 4. PCR amplification
+# 5. QC (Bioanalyzer, qPCR, Qubit)
+# Error sources: GC bias, PCR duplicates, index hopping, adapter contamination

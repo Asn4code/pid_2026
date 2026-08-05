@@ -1,0 +1,6 @@
+seq	original_entropy	mutated_entropy	mutation_type	delta
+seq_001	2.00	2.00	neutral	0.00
+seq_002	1.50	1.75	transition	0.25
+seq_003	1.00	1.50	transversion	0.50
+seq_004	1.50	1.50	neutral	0.00
+seq_005	0.80	1.00	transition	0.20

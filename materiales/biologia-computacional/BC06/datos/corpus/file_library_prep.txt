@@ -1,0 +1,6 @@
+# NGS Library Prep:
+# 1. Fragmentation (sonic/enzymatic)
+# 2. End repair
+# 3. Adapter ligation
+# 4. PCR amplification
+# QC: Bioanalyzer, qPCR, Qubit

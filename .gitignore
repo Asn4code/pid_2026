@@ -30,6 +30,7 @@ venv/
 *.fls
 *.lof
 *.log
+!materiales/tecnicas-computacionales-biologia/TC01/datos/corpus/*.log
 *.lot
 *.nav
 *.out
@@ -66,3 +67,10 @@ venv/
 /temas_tecnicas_computacionales_biologia/
 /tools/
 /uso_ia_univ/
+
+# Generated artifacts and student submissions
+/resultados/
+
+# Local opencode state
+.opencode/
+.scratch_test/

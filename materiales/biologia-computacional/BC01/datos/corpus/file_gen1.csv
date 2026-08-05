@@ -1,0 +1,7 @@
+archivo,tipo,tamaño,peso,fecha_creación
+secuencia_ref.fasta	genoma de referencia	172265 bp	243 KB	2025-03-15
+genoma_humano.fa	genoma completo GRCh38	3095M bp	4.2 GB	2024-01-01
+annotaciones.gtf	capas de anotación	2.8 GB	2.8 GB	2024-01-01
+variantes.vcf	registro de variantes	850 MB	850 MB	2024-06-20
+index.bai	índice BAM	7.2 MB	7.2 MB	2024-06-20
+fastqc_report.html	reporte QC	850 KB	850 KB	2024-06-20

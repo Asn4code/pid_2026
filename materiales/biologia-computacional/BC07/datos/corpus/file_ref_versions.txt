@@ -1,0 +1,5 @@
+# Reference genome versions
+# GRCh37/hg19: 2009
+# GRCh38/hg38: 2013 (updated)
+# Coordinates change between versions
+# rs1800566 (HbS): GRCh37 ~chr11:5240736, GRCh38 ~chr11:5240736

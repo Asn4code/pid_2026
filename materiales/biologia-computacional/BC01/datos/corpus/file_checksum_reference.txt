@@ -1,0 +1,14 @@
+# Referencia de checksums
+
+Un checksum es una firma digital que verifica la integridad de un archivo.
+Si el archivo cambia (corrupción, descargada incompleta), el checksum difiere.
+SHA-256 produce un hash de 64 caracteres hexadecimales.
+
+Comandos:
+  sha256sum archivo > firma.txt    # Generar checksum
+  sha256sum -c firma.txt          # Verificar contra checksum
+
+Importancia en bioinformática:
+  - Verificar descargas de datos genómicos
+  - Asegurar reproducibilidad del pipeline
+  - Detectar corrupción en transferencias

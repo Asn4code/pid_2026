@@ -25,10 +25,33 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Técnicas Computacionales en Biología: tecnicas-computacionales-biologia/index.md
   - Biología Computacional:
     - biologia-computacional/index.md
     - BC01 - Introducción, entorno y reproducibilidad: biologia-computacional/bc01.md
+    - BC02 - Bioquímica esencial como modelo computable: biologia-computacional/bc02.md
+    - BC03 - Genética, genómica y variantes: biologia-computacional/bc03.md
+    - BC04 - Expresión génica y lectura de marcos: biologia-computacional/bc04.md
+    - BC05 - Secuencia, estructura y función de proteínas: biologia-computacional/bc05.md
+    - BC06 - Tecnologías de secuenciación y librerías: biologia-computacional/bc06.md
+    - BC07 - Lecturas, calidad y referencia: biologia-computacional/bc07.md
+    - BC08 - Alineamiento y mapeo de NGS: biologia-computacional/bc08.md
+    - BC09 - Alineamiento múltiple, curado y filogenia: biologia-computacional/bc09.md
+    - BC10 - Regulación procariota, clonación y plásmidos: biologia-computacional/bc10.md
+    - BC11 - Representación estructural y PDB: biologia-computacional/bc11.md
+    - BC12 - Predicción estructural clásica: biologia-computacional/bc12.md
+    - BC13 - Predicción estructural con IA: biologia-computacional/bc13.md
+    - BC14 - Cribado virtual y priorización de candidatos: biologia-computacional/bc14.md
+  - Técnicas Computacionales en Biología:
+    - tecnicas-computacionales-biologia/index.md
+    - TC01 - Linux, Shell, expresiones regulares: tecnicas-computacionales-biologia/tc01.md
+    - TC02 - Bash avanzado: bucles, sed y awk: tecnicas-computacionales-biologia/tc02.md
+    - TC03 - Algoritmos, representación y complejidad: tecnicas-computacionales-biologia/tc03.md
+    - TC04 - Variables y estructuras lineales: tecnicas-computacionales-biologia/tc04.md
+    - TC05 - Hash, árboles y grafos: tecnicas-computacionales-biologia/tc05.md
+    - TC06 - Búsqueda y ordenación: tecnicas-computacionales-biologia/tc06.md
+    - TC07 - Teoría de la información: tecnicas-computacionales-biologia/tc07.md
+    - TC08 - Clasificación probabilística, Markov y HMM: tecnicas-computacionales-biologia/tc08.md
+    - TC09 - Alineamiento dinámico y BLAST: tecnicas-computacionales-biologia/tc09.md
   - Entorno de trabajo: entorno-de-trabajo.md
 
 plugins:

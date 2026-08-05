@@ -1,0 +1,11 @@
+# Regulación génica procariota
+# Operón lac (lactosa):
+# - LacI repressor binds to operator (O)
+# - Allolactose removes LacI binding
+# - CAP activator when cAMP is high
+# - Promoter binding by RNA polymerase
+#
+# Operón trp (triptófano):
+# - TrpR repressor + corepressor (tryptophan)
+# - Attenuator sequence downstream
+# - Leader sequence controls termination

@@ -1,0 +1,22 @@
+# Transcription and Translation
+# DNA -> RNA -> Protein
+
+# Transcription (DNA to mRNA):
+#   T -> U (thymine to uracil)
+#   A -> A (adenine pairs with uracil in RNA)
+#   C -> G (cytosine pairs with guanine)
+#   G -> C (guanine pairs with cytosine)
+
+# Translation (mRNA to protein):
+#   3 nucleotides = 1 codon = 1 amino acid
+#   ATG = start codon (Methionine)
+#   TAA, TAG, TGA = stop codons
+#
+# Example: ATG TTT GTG ...
+#   mRNA: AUG UUU GUG ...
+#   Prot: M   F   V   ...
+
+# Intron removal (splicing):
+#   DNA: EXON1 + INTRON + EXON2
+#   Pre-mRNA: EXON1 + INTRON + EXON2
+#   mRNA: EXON1 + EXON2 (intron removed)

@@ -1,0 +1,6 @@
+# Sites de restricción comunes
+EcoRI: G*AATTC (sticky end, 5'-overhang)
+BamHI: G*GGATCC (sticky, 5'-TGATTC)
+BglII: A*GATCT (sticky, compatible with BamHI)
+PstI: CTGCAG* (sticky, 3'-overhang)
+XhoI: C*TCGAG (sticky, 5'-TCGAG)

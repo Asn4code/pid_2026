@@ -1,0 +1,20 @@
+aminoacid	abrev3	abrev1	masa	pI	hidrofobicidad	carga_pH7	lateral
+Alanina	Ala	A	89.09	6.01	+1.80	0	-CH3
+Arginina	Arg	R	174.20	10.76	-4.50	+1	(CH2)3-NH2+
+Asparagina	Asn	N	132.12	5.41	-3.50	0	CH2-CONH2
+Acido aspartico	Asp	D	133.10	2.77	-3.55	-1	CH2-COO-
+Cisteina	Cys	C	121.16	5.07	+2.58	0	CH2-SH
+Glutamina	Gln	Q	146.15	5.65	-3.50	0	(CH2)2-CONH2
+Acido glutamico	Glu	E	147.13	3.22	-3.55	-1	(CH2)2-COO-
+Glicina	Gly	G	75.07	6.06	-0.40	0	H
+Histidina	His	H	155.16	7.59	-3.20	+0.1	(CH2)2-imidazol
+Isoleucina	Ile	I	131.17	6.02	+4.50	0	CH(CH3)CH2CH3
+Leucina	Leu	L	131.17	6.01	+3.80	0	CH2CH(CH3)2
+Lisina	Lys	K	146.19	9.60	-3.89	+1	(CH2)4-NH3+
+Metionina	Met	M	149.21	5.74	+1.90	0	(CH2)2-CH2-S-CH3
+Prolina	Pro	P	115.13	6.30	-1.60	0	(CH2)3-pirrolidina
+Serina	Ser	S	105.09	5.68	-0.80	0	CH2-OH
+Treonina	Thr	T	119.12	5.60	-0.70	0	CH(OH)CH3
+Triptofano	Trp	W	204.23	5.89	-0.90	0	Indol-metil
+Tirosina	Tyr	Y	181.19	5.66	-1.30	0	(CH2)-fenol
+Valina	Val	V	117.15	6.00	+3.80	0	CH(CH3)2

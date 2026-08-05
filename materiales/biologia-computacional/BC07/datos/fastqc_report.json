@@ -1,0 +1,24 @@
+{
+  "summary": [
+    {
+      "id": "Per base sequence quality",
+      "status": "pass"
+    },
+    {
+      "id": "Per sequence quality scores",
+      "status": "pass"
+    },
+    {
+      "id": "Per base sequence content",
+      "status": "warn"
+    },
+    {
+      "id": "Per base GC content",
+      "status": "pass"
+    },
+    {
+      "id": "Sequence Duplication Levels",
+      "status": "warn"
+    }
+  ]
+}
