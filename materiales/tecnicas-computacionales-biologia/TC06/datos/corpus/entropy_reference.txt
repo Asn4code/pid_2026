@@ -1,0 +1,11 @@
+# Cálculo de entropía de Shannon para secuencias
+# H = -sum(p_i * log2(p_i)) para cada nucleótido i
+#
+# Ejemplo: secuencia con 4 nucleótidos iguales (25% cada uno)
+# H = -(0.25*log2(0.25) * 4) = 2 bits
+#
+# Ejemplo: secuencia con solo A y T (50% cada uno)
+# H = -(0.5*log2(0.5) * 2) = 1 bit
+#
+# Entropía máxima = log2(nucleótidos) = 2 bits (4 nucleótidos)
+# Entropía mínima = 0 bits (un solo nucleótido)

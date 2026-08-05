@@ -1,0 +1,3 @@
+script	caso	esperado	real	testado	OK_NO
+bash src/smoke_test.sh	---	completa con OK	completa con OK	automático	OK_NO
+sha256sum -c SHA256SUMS	---	verifica	tu resultado	comparación	OK_NO
