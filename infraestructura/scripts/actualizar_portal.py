@@ -7,25 +7,12 @@ Regenera las páginas markdown del portal docente leyendo:
 - config_capitulos.json (configuración de descarga y versiones de capítulos)
 """
 
-import os, json, shutil
+import os, json
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TOPICS_FILE = os.path.join(BASE_DIR, "docs/assets/topics_data.json")
 CONFIG_FILE = os.path.join(BASE_DIR, "config_capitulos.json")
 TC_DIR = os.path.join(BASE_DIR, "docs/tecnicas-computacionales-biologia")
-
-# Ensure assets are also accessible locally in tc directory as fallback
-tc_assets = os.path.join(TC_DIR, "assets")
-os.makedirs(tc_assets, exist_ok=True)
-root_assets = os.path.join(BASE_DIR, "docs/assets")
-
-for subdir in ["capitulos", "kits", "figures"]:
-    src_sub = os.path.join(root_assets, subdir)
-    dst_sub = os.path.join(tc_assets, subdir)
-    if os.path.exists(src_sub):
-        os.makedirs(dst_sub, exist_ok=True)
-        for f in os.listdir(src_sub):
-            shutil.copy2(os.path.join(src_sub, f), os.path.join(dst_sub, f))
 
 with open(TOPICS_FILE, "r", encoding="utf-8") as f:
     topics = json.load(f)
@@ -46,32 +33,24 @@ for t in topics:
     
     if cfg.get("enabled", True):
         active_ver = cfg.get("active_version", "v2.2")
-        pdf_rel = f"../../{cfg['versions'].get(active_ver, f'assets/capitulos/TC{num_str}_capitulo_{active_ver}.pdf')}"
+        pdf_rel = f"../{cfg['versions'].get(active_ver, f'assets/capitulos/TC{num_str}_capitulo_{active_ver}.pdf')}"
         
         hist_links = []
         for ver, path in cfg.get("versions", {}).items():
             if ver != active_ver:
-                hist_links.append(f'<a href="../../{path}" class="md-button md-button--secondary" style="font-size:0.8em; margin-left:0.5em;" download>Versión {ver}</a>')
-        hist_html = ("<p style='margin-top:0.8em; font-size:0.85em;'>Versiones alternativas disponibles: " + " ".join(hist_links) + "</p>") if hist_links else ""
+                hist_links.append(f'[{ver}](../{path}){{ .md-button .md-button--secondary style="font-size:0.8em;" }}')
+        hist_md = ("\n\nVersiones alternativas: " + " ".join(hist_links)) if hist_links else ""
         
         chapter_block = f"""
-    <div style="margin: 1.5em 0;" class="admonition info">
-      <p class="admonition-title">📖 Capítulo Teórico Disponible ({active_ver})</p>
-      <p>Puede consultar y descargar el capítulo teórico individual en formato PDF para preparar esta sesión:</p>
-      <p>
-        <a href="{pdf_rel}" class="md-button md-button--primary" download>
-          📥 Descargar Capítulo TC{num_str} (PDF · {active_ver})
-        </a>
-      </p>
-      {hist_html}
-    </div>
+    !!! info "📖 Material de Estudio Teórico ({active_ver})"
+        Puede consultar y descargar el capítulo individual en formato PDF para preparar esta sesión:
+
+        [📥 Descargar Capítulo TC{num_str} (PDF · {active_ver})]({pdf_rel}){{ .md-button .md-button--primary }}{hist_md}
 """
     else:
         chapter_block = f"""
-    <div style="margin: 1.5em 0;" class="admonition warning">
-      <p class="admonition-title">🔒 Capítulo en Revisión Docente</p>
-      <p>El PDF de este capítulo no está disponible para descarga pública directa en este momento. Consulte la versión oficial en el Campus Virtual.</p>
-    </div>
+    !!! warning "🔒 Capítulo en Revisión Docente"
+        El PDF de este capítulo no está disponible para descarga pública directa en este momento. Consulte la versión oficial en el Campus Virtual.
 """
 
     md_filename = os.path.join(TC_DIR, f"tc{num_str}.md")
@@ -109,7 +88,7 @@ description: {t['desc']}
 
     ### Diagrama Conceptual de Referencia
 
-    ![{t['figure_alt']}](../../assets/figures/{os.path.basename(t['figure_img'])})
+    ![{t['figure_alt']}](../assets/figures/{os.path.basename(t['figure_img'])})
 
     *{t['figure_caption']}*
 
@@ -119,11 +98,7 @@ description: {t['desc']}
 
     {t['practice_desc']}
 
-    <div style="margin: 1.5em 0;">
-      <a href="../../assets/kits/{os.path.basename(t['practice_kit'])}" class="md-button md-button--primary" download>
-        📥 Descargar Kit de Práctica (kit_TC{num_str}.tar.gz)
-      </a>
-    </div>
+    [📥 Descargar Kit de Práctica (kit_TC{num_str}.tar.gz)](../assets/kits/{os.path.basename(t['practice_kit'])}){{ .md-button .md-button--primary }}
 
     #### 1. Inicialización del Espacio de Trabajo
     ```bash
@@ -176,4 +151,4 @@ description: {t['desc']}
     with open(md_filename, "w", encoding="utf-8") as out_f:
         out_f.write(content)
 
-print("Actualizadas todas las rutas relativas a ../../assets/ en tc01.md ... tc10.md")
+print("Actualizadas páginas con sintaxis Markdown nativa para MkDocs.")
