@@ -1,50 +1,43 @@
 ---
 title: Técnicas Computacionales en Biología
-description: Materiales, prácticas y recursos de la asignatura.
+description: Programa docente, bloques temáticos y prácticas de laboratorio (Versión 2.2).
 ---
 
-<header class="subject-header subject-header--tech" markdown="span">
-  <span class="subject-header__icon">:material-code-braces:</span>
-  <div>
-    <p class="portal-eyebrow">Primer semestre · 12 semanas</p>
-    <h1>Técnicas Computacionales en Biología</h1>
-    <p>Dos sesiones semanales de dos horas. Parcial y final fuera de estas sesiones.</p>
-  </div>
-</header>
+# Técnicas Computacionales en Biología (Versión 2.2)
 
-## Recorrido de la asignatura
+Bienvenido al espacio de la asignatura **Técnicas Computacionales en Biología** dentro del Proyecto de Innovación Docente (PID 2025–2026).
 
-| Semana | Módulos y foco | Sesiones |
-|---:|---|:---:|
-| 1-2 | [**TC01.** Linux, Shell, expresiones regulares y formatos](tc01.md) | S01-S03 |
-| 2-3 | [**TC02.** Bash avanzado: bucles, sed y awk](tc02.md) | S04-S05 |
-| 3-4 | [**TC03.** Algoritmos, representación y complejidad](tc03.md) | S06-S07 |
-| 4-5 | [**TC04.** Variables y estructuras lineales](tc04.md) | S08-S09 |
-| 5-6 | [**TC05.** Hash, árboles y grafos](tc05.md) | S10-S11 |
-| 6-7 | [**TC06.** Búsqueda y ordenación](tc06.md) | S12-S14 |
-| 8-9 | [**TC07.** Teoría de la información](tc07.md) | S15-S17 |
-| 9-10 | [**TC08.** Clasificación probabilística, Markov y HMM](tc08.md) | S18-S20 |
-| 10-11 | [**TC09.** Alineamiento dinámico y BLAST](tc09.md) | S21-S22 |
+!!! warning "Aviso Institucional de Entrega"
+    **Campus Virtual como Sistema Oficial:** La entrega, evaluación y calificación de todas las actividades prácticas se realiza exclusivamente a través del Campus Virtual. Este portal ofrece la documentación interactiva y los kits de práctica descargables.
 
-## Materiales de los Módulos
+!!! info "Material Docente"
+    El libro de texto unificado (*Técnicas Computacionales en Biología*, 215 páginas) es proporcionado directamente por el profesor de la asignatura.
 
-| Módulo | Materiales y Recursos |
-|:---:|---|
-| **TC01** | [Módulo](tc01.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/paquete/TC01_starter_v0.3.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC01/notebooks/TC01_colab.ipynb) |
-| **TC02** | [Módulo](tc02.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC02/paquete/TC02_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC02/notebooks/TC02_colab.ipynb) |
-| **TC03** | [Módulo](tc03.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC03/paquete/TC03_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC03/notebooks/TC03_colab.ipynb) |
-| **TC04** | [Módulo](tc04.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC04/paquete/TC04_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC04/notebooks/TC04_colab.ipynb) |
-| **TC05** | [Módulo](tc05.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC05/paquete/TC05_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC05/notebooks/TC05_colab.ipynb) |
-| **TC06** | [Módulo](tc06.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC06/paquete/TC06_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC06/notebooks/TC06_colab.ipynb) |
-| **TC07** | [Módulo](tc07.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC07/paquete/TC07_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC07/notebooks/TC07_colab.ipynb) |
-| **TC08** | [Módulo](tc08.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC08/paquete/TC08_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC08/notebooks/TC08_colab.ipynb) |
-| **TC09** | [Módulo](tc09.md) · [Paquete](https://github.com/anomalyco/pid_2026/raw/desarrollo/materiales/tecnicas-computacionales-biologia/TC09/paquete/TC09_starter_v0.1.0.tar.gz) · [Colab](https://colab.research.google.com/github/anomalyco/pid_2026/blob/desarrollo/materiales/tecnicas-computacionales-biologia/TC09/notebooks/TC09_colab.ipynb) |
+---
 
-## Forma de trabajo
+## 📚 Mapa de Temas y Laboratorios
 
-1. Leer el capítulo y responder la activación previa.
-2. Ejecutar y modificar el ejemplo durante la sesión.
-3. Interpretar el resultado y defender individualmente una decisión.
-4. Entregar la evidencia solicitada en el Campus Virtual.
+### 🔷 Bloque I: Entorno, Sistemas y Algoritmos Fundamentales
+- [**TC01** · Entorno, Sistemas y Diagnóstico POSIX](tc01.md)
+- [**TC02** · Procesamiento de Texto y Pipelines Streaming](tc02.md)
+- [**TC03** · Diseño de Algoritmos y Complejidad Asintótica](tc03.md)
 
-[Preparar el entorno de trabajo](../entorno-de-trabajo.md){ .md-button }
+### 🔶 Bloque II: Estructuras de Datos, Búsqueda y Ordenación
+- [**TC04** · Estructuras de Datos Lineales y Memoria](tc04.md)
+- [**TC05** · Estructuras No Lineales, Árboles y Grafos](tc05.md)
+- [**TC06** · Búsqueda y Algoritmos de Ordenación](tc06.md)
+
+### 🟣 Bloque III: Información, Modelos Probabilísticos y Aprendizaje
+- [**TC07** · Teoría de la Información y Análisis de Secuencias](tc07.md)
+- [**TC08** · Cadenas de Markov y Modelos Probabilísticos](tc08.md)
+- [**TC09** · Alineamiento de Secuencias y Programación Dinámica](tc09.md)
+- [**TC10** · Redes Neuronales para Bioinformática](tc10.md)
+
+---
+
+## 🎯 Metodología del «Trío Pedagógico»
+
+Cada tema integra de forma coordinada:
+1. 📊 **Figura conceptual vectorial** de alta resolución adaptada de las diapositivas docentes.
+2. 📐 **Algoritmo formal en pseudocódigo** con contratos, invariantes y análisis asintótico $O(T), O(S)$.
+3. 💻 **Kit de laboratorio descargable** con verificación automatizada `DELIVERY_OK` ($SEED=42$).

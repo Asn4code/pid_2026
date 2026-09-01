@@ -52,6 +52,7 @@ nav:
     - TC07 - Teoría de la información: tecnicas-computacionales-biologia/tc07.md
     - TC08 - Clasificación probabilística, Markov y HMM: tecnicas-computacionales-biologia/tc08.md
     - TC09 - Alineamiento dinámico y BLAST: tecnicas-computacionales-biologia/tc09.md
+    - TC10 - Redes neuronales para bioinformática: tecnicas-computacionales-biologia/tc10.md
   - Entorno de trabajo: entorno-de-trabajo.md
 
 plugins:
@@ -64,6 +65,8 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
