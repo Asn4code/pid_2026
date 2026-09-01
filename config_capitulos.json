@@ -88,5 +88,103 @@
     "versions": {
       "v2.2": "assets/capitulos/TC10_capitulo_v2.2.pdf"
     }
+  },
+  "BC01": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC01_capitulo_v3.0.pdf"
+    }
+  },
+  "BC02": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC02_capitulo_v3.0.pdf"
+    }
+  },
+  "BC03": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC03_capitulo_v3.0.pdf"
+    }
+  },
+  "BC04": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC04_capitulo_v3.0.pdf"
+    }
+  },
+  "BC05": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC05_capitulo_v3.0.pdf"
+    }
+  },
+  "BC06": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC06_capitulo_v3.0.pdf"
+    }
+  },
+  "BC07": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC07_capitulo_v3.0.pdf"
+    }
+  },
+  "BC08": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC08_capitulo_v3.0.pdf"
+    }
+  },
+  "BC09": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC09_capitulo_v3.0.pdf"
+    }
+  },
+  "BC10": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC10_capitulo_v3.0.pdf"
+    }
+  },
+  "BC11": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC11_capitulo_v3.0.pdf"
+    }
+  },
+  "BC12": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC12_capitulo_v3.0.pdf"
+    }
+  },
+  "BC13": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC13_capitulo_v3.0.pdf"
+    }
+  },
+  "BC14": {
+    "enabled": true,
+    "active_version": "v3.0",
+    "versions": {
+      "v3.0": "assets/capitulos/BC14_capitulo_v3.0.pdf"
+    }
   }
 }
