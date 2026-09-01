@@ -1,18 +1,31 @@
 #!/usr/bin/env python3
 """
-tools/actualizar_portal.py
---------------------------
+infraestructura/scripts/actualizar_portal.py
+--------------------------------------------
 Regenera las páginas markdown del portal docente leyendo:
 - docs/assets/topics_data.json (datos de los 10 temas y pseudocódigos)
 - config_capitulos.json (configuración de descarga y versiones de capítulos)
 """
 
-import os, json
+import os, json, shutil
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TOPICS_FILE = os.path.join(BASE_DIR, "docs/assets/topics_data.json")
 CONFIG_FILE = os.path.join(BASE_DIR, "config_capitulos.json")
 TC_DIR = os.path.join(BASE_DIR, "docs/tecnicas-computacionales-biologia")
+
+# Ensure assets are also accessible locally in tc directory as fallback
+tc_assets = os.path.join(TC_DIR, "assets")
+os.makedirs(tc_assets, exist_ok=True)
+root_assets = os.path.join(BASE_DIR, "docs/assets")
+
+for subdir in ["capitulos", "kits", "figures"]:
+    src_sub = os.path.join(root_assets, subdir)
+    dst_sub = os.path.join(tc_assets, subdir)
+    if os.path.exists(src_sub):
+        os.makedirs(dst_sub, exist_ok=True)
+        for f in os.listdir(src_sub):
+            shutil.copy2(os.path.join(src_sub, f), os.path.join(dst_sub, f))
 
 with open(TOPICS_FILE, "r", encoding="utf-8") as f:
     topics = json.load(f)
@@ -33,12 +46,12 @@ for t in topics:
     
     if cfg.get("enabled", True):
         active_ver = cfg.get("active_version", "v2.2")
-        pdf_rel = f"../{cfg['versions'].get(active_ver, f'assets/capitulos/TC{num_str}_capitulo_{active_ver}.pdf')}"
+        pdf_rel = f"../../{cfg['versions'].get(active_ver, f'assets/capitulos/TC{num_str}_capitulo_{active_ver}.pdf')}"
         
         hist_links = []
         for ver, path in cfg.get("versions", {}).items():
             if ver != active_ver:
-                hist_links.append(f'<a href="../{path}" class="md-button md-button--secondary" style="font-size:0.8em; margin-left:0.5em;" download>Versión {ver}</a>')
+                hist_links.append(f'<a href="../../{path}" class="md-button md-button--secondary" style="font-size:0.8em; margin-left:0.5em;" download>Versión {ver}</a>')
         hist_html = ("<p style='margin-top:0.8em; font-size:0.85em;'>Versiones alternativas disponibles: " + " ".join(hist_links) + "</p>") if hist_links else ""
         
         chapter_block = f"""
@@ -96,7 +109,7 @@ description: {t['desc']}
 
     ### Diagrama Conceptual de Referencia
 
-    ![{t['figure_alt']}](../assets/figures/{os.path.basename(t['figure_img'])})
+    ![{t['figure_alt']}](../../assets/figures/{os.path.basename(t['figure_img'])})
 
     *{t['figure_caption']}*
 
@@ -107,7 +120,7 @@ description: {t['desc']}
     {t['practice_desc']}
 
     <div style="margin: 1.5em 0;">
-      <a href="../assets/kits/{os.path.basename(t['practice_kit'])}" class="md-button md-button--primary" download>
+      <a href="../../assets/kits/{os.path.basename(t['practice_kit'])}" class="md-button md-button--primary" download>
         📥 Descargar Kit de Práctica (kit_TC{num_str}.tar.gz)
       </a>
     </div>
@@ -163,4 +176,4 @@ description: {t['desc']}
     with open(md_filename, "w", encoding="utf-8") as out_f:
         out_f.write(content)
 
-print("Portal actualizado correctamente con tools/actualizar_portal.py.")
+print("Actualizadas todas las rutas relativas a ../../assets/ en tc01.md ... tc10.md")
