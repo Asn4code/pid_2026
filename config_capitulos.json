@@ -1,0 +1,92 @@
+{
+  "TC01": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 01",
+    "versions": {
+      "v2.2": "assets/capitulos/TC01_capitulo_v2.2.pdf"
+    }
+  },
+  "TC02": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 02",
+    "versions": {
+      "v2.2": "assets/capitulos/TC02_capitulo_v2.2.pdf"
+    }
+  },
+  "TC03": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 03",
+    "versions": {
+      "v2.2": "assets/capitulos/TC03_capitulo_v2.2.pdf"
+    }
+  },
+  "TC04": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 04",
+    "versions": {
+      "v2.2": "assets/capitulos/TC04_capitulo_v2.2.pdf"
+    }
+  },
+  "TC05": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 05",
+    "versions": {
+      "v2.2": "assets/capitulos/TC05_capitulo_v2.2.pdf"
+    }
+  },
+  "TC06": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 06",
+    "versions": {
+      "v2.2": "assets/capitulos/TC06_capitulo_v2.2.pdf"
+    }
+  },
+  "TC07": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 07",
+    "versions": {
+      "v2.2": "assets/capitulos/TC07_capitulo_v2.2.pdf"
+    }
+  },
+  "TC08": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 08",
+    "versions": {
+      "v2.2": "assets/capitulos/TC08_capitulo_v2.2.pdf"
+    }
+  },
+  "TC09": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 09",
+    "versions": {
+      "v2.2": "assets/capitulos/TC09_capitulo_v2.2.pdf"
+    }
+  },
+  "TC10": {
+    "enabled": true,
+    "active_version": "v2.2",
+    "badge": "Versión 2.2 Oficial",
+    "title": "Capítulo 10",
+    "versions": {
+      "v2.2": "assets/capitulos/TC10_capitulo_v2.2.pdf"
+    }
+  }
+}
