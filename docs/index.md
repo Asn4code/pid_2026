@@ -23,8 +23,8 @@ hide:
 <div class="course-grid" markdown="span">
   <a class="course-card course-card--tech" href="tecnicas-computacionales-biologia/">
     <span class="course-card__icon">:material-code-braces:</span>
-    <span class="course-card__meta">9 módulos · 24 sesiones</span>
-    <span class="course-card__meta">✓ 9/9</span>
+    <span class="course-card__meta">10 módulos · 24 sesiones</span>
+    <span class="course-card__meta">✓ 10/10</span>
     <strong>Técnicas Computacionales en Biología</strong>
     <span class="course-card__description">
       Programación, algoritmos, estructuras de datos y métodos bioinformáticos.

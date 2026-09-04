@@ -1,17 +1,20 @@
 ---
 title: Técnicas Computacionales en Biología
-description: Programa docente, bloques temáticos y prácticas de laboratorio (Versión 2.2).
+description: Programa docente, bloques temáticos y prácticas de laboratorio (v4.0 · edición 2).
 ---
 
-# Técnicas Computacionales en Biología (Versión 2.2)
+# Técnicas Computacionales en Biología (v4.0 · edición 2)
 
 Bienvenido al espacio de la asignatura **Técnicas Computacionales en Biología** dentro del Proyecto de Innovación Docente (PID 2025–2026).
 
 !!! warning "Aviso Institucional de Entrega"
     **Campus Virtual como Sistema Oficial:** La entrega, evaluación y calificación de todas las actividades prácticas se realiza exclusivamente a través del Campus Virtual. Este portal ofrece la documentación interactiva y los kits de práctica descargables.
 
-!!! info "Material Docente"
-    El libro de texto unificado (*Técnicas Computacionales en Biología*, 215 páginas) es proporcionado directamente por el profesor de la asignatura.
+!!! info "📖 Libro de Texto Consolidado (v4.0 · edición 2)"
+    El manual completo de la asignatura, con los diez capítulos y sus anexos
+    prácticos en un solo PDF etiquetado y accesible:
+
+    [📥 Descargar Libro Completo de Técnicas Computacionales en Biología (187 págs · PDF)](../assets/libros/TC-libro_v4.0.pdf){ .md-button .md-button--primary }
 
 ---
 

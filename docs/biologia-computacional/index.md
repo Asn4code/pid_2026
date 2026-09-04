@@ -2,10 +2,13 @@
 
 Bienvenido al portal de la asignatura **Biología Computacional** (Curso 2026–2027), perteneciente al Plan de Innovación Docente.
 
-!!! info "📖 Libro de Texto Consolidado (Versión 3.0)"
-    El manual completo de la asignatura está disponible para consulta de estudiantes:
-    
-    [📥 Descargar Libro Completo de Biología Computacional (240 págs · PDF)](../assets/capitulos/Libro_Biologia_Computacional_v3.0.pdf){ .md-button .md-button--primary }
+!!! info "📖 Libro de Texto Consolidado (v4.0 · edición 2)"
+    El manual completo de la asignatura, con los catorce capítulos y sus anexos
+    prácticos en un solo PDF etiquetado y accesible:
+
+    [📥 Descargar Libro Completo de Biología Computacional (207 págs · PDF)](../assets/libros/BC-libro_v4.0.pdf){ .md-button .md-button--primary }
+
+    La edición anterior sigue disponible: [Versión 3.0 (240 págs)](../assets/capitulos/Libro_Biologia_Computacional_v3.0.pdf).
 
 ---
 
