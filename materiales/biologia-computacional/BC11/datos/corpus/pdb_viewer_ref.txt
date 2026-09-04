@@ -1,6 +1,0 @@
-# Herramientas de visualización de estructuras PDB
-# PyMOL (http://www.pymol.org/): visualización interactiva
-# Chimera (http://www.rbvi.ucsf.edu/chimera/): análisis estructural
-# Jmol (https://jmol.sourceforge.net/): visualizador web
-# RCSB PDB search: https://www.wwpdb.org/
-# PDBsum (https://www.ebi.ac.uk/pdbsum/): análisis de interacciones

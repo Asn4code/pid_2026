@@ -1,7 +1,0 @@
-# Registro de secuencias proteicas de prueba
-# Formato: ID | Nombre | Organismo | Long (AA) | Función
-P001 | Hemoglobina beta | Homo sapiens | 147 | Transporte de oxígeno
-P002 | Insulina | Homo sapiens | 51 | Regulación glucémica
-P003 | P53 | Homo sapiens | 393 | Supresor de tumor
-P004 | GFP | Aequorea victoria | 238 | Reportero fluorescente
-P005 | beta-galactosidasa | Escherichia coli | 1023 | Enzima metabólica

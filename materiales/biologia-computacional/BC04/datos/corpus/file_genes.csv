@@ -1,4 +1,0 @@
-gene,length_bp,exons,intron_length,codons
-gene_A,120,1,0,40
-gene_B,250,3,"40,20,60",~70
-gene_C,180,2,"50,30",~50

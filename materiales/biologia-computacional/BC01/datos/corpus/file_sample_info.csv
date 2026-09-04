@@ -1,5 +1,0 @@
-archivo,tamaño,lecturas,tipo_secuenciación,plataforma,fecha
-sample_001_R1.fastq,4.5 GB,~32M,paired-end,Illumina NovaSeq 6000,2025-01-15
-sample_001_R2.fastq,4.5 GB,~32M,paired-end,Illumina NovaSeq 6000,2025-01-15
-sample_002_R1.fastq,3.8 GB,~27M,paired-end,Illumina HiSeq X,2025-02-20
-sample_002_R2.fastq,3.8 GB,~27M,paired-end,Illumina HiSeq X,2025-02-20

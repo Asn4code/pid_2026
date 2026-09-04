@@ -1,4 +1,0 @@
-lectura_a
-lectura_b
-lectura_c
-lectura_d

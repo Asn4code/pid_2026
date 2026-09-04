@@ -1,7 +1,0 @@
-codon	aminoacid	symbol	start_codon	stop_codon
-ATG	methionine	M	yes	no
-TAA	stop	*	no	yes
-TAG	stop	*	no	yes
-TGA	stop	*	no	yes
-TTT	phenylalanine	F	no	no
-GTG	valine	V	no	no

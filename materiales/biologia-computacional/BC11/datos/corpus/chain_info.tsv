@@ -1,5 +1,0 @@
-chain	name	type	length	resolution
-B	hemoglobin_beta	protein	147	1.54
-A	hemoglobin_alpha	protein	142	2.0
-HEM	protoporphyrin IX	ligand	34	N/A
-FE	heme iron	metal	1	N/A

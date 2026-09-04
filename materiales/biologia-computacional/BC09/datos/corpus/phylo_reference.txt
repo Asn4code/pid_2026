@@ -1,5 +1,0 @@
-# Phylogenetic reference for HBB hemoglobin
-# Expected tree: ((Homo,Canis),Mus),(Gallus),(Danio,(Caeno,Droso,Daphnia)))
-# Mammals cluster together, birds separate, fish separate, invertebrates most distant.
-# Bootstrap values: >70% = strong support, 50-70% = moderate, <50% = weak
-# This reflects the known evolutionary relationships among species.

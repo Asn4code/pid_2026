@@ -1,9 +1,0 @@
-comando	descripción	resultado esperado	error común
-ls -la /home	Lista contenido del directorio	archivos y permisos	nombre del directorio mal escrito
-cat datos.txt	Muestra contenido de archivo	texto del archivo	archivo no existe o está vacío
-wc -l datos.fasta	Cuenta líneas del fichero	número de líneas	usa -w en vez de -l
-sha256sum datos.fasta	Genera checksum	64 caracteres hexadecimales	olvida el nombre del archivo
-find . -name "*.fasta"	Busca archivos FASTA	lista de archivos .fasta	usa -n en vez de -name
-diff archivo1.txt archivo2.txt	Compara dos archivos	diferencias o "no differences"	olvida los argumentos
-grep "ERROR" log.txt	Busca líneas con ERROR	líneas que contienen ERROR	ignora mayúsculas/minúsculas
-head -n 5 datos.fasta	Muestra las primeras 5 líneas	5 líneas del fichero	no especifica -n

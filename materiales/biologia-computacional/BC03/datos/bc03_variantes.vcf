@@ -1,0 +1,13 @@
+##fileformat=VCFv4.2
+##reference=cromosoma_sintetico_BC03
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chrS	1	var001	A	G	60	PASS	.
+chrS	112	var002	C	T	55	PASS	.
+chrS	340	var003	G	A	70	PASS	.
+chrS	501	var004	T	C	48	PASS	.
+chrS	733	var005	A	C	52	PASS	.
+chrS	890	var006	G	T	61	PASS	.
+chrS	1024	var007	C	G	44	PASS	.
+chrS	1180	var008	T	A	66	PASS	.
+chrS	1301	var009	A	G	58	PASS	.
+chrS	1477	var010	G	A	73	PASS	.

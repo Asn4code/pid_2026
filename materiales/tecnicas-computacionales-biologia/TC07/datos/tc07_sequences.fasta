@@ -1,0 +1,15 @@
+>constant control_de_entropia_cero
+AAAAAAAA
+AAAAAAAA
+>uniform control_equiprobable
+ACGTACGT
+ACGTACGT
+>blocks misma_composicion_orden_en_bloques
+AAAACCCC
+GGGGTTTT
+>interleaved misma_composicion_orden_intercalado
+ACGTACGT
+ACGTACGT
+>mixed cambio_local_para_ventanas
+AAAAAAAAACGT
+ACGTACGTACGT

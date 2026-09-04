@@ -1,190 +1,228 @@
 {
   "TC01": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 01",
     "versions": {
-      "v2.2": "assets/capitulos/TC01_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC01_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC01_capitulo_v4.0.pdf"
     }
   },
   "TC02": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 02",
     "versions": {
-      "v2.2": "assets/capitulos/TC02_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC02_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC02_capitulo_v4.0.pdf"
     }
   },
   "TC03": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 03",
     "versions": {
-      "v2.2": "assets/capitulos/TC03_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC03_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC03_capitulo_v4.0.pdf"
     }
   },
   "TC04": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 04",
     "versions": {
-      "v2.2": "assets/capitulos/TC04_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC04_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC04_capitulo_v4.0.pdf"
     }
   },
   "TC05": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 05",
     "versions": {
-      "v2.2": "assets/capitulos/TC05_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC05_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC05_capitulo_v4.0.pdf"
     }
   },
   "TC06": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 06",
     "versions": {
-      "v2.2": "assets/capitulos/TC06_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC06_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC06_capitulo_v4.0.pdf"
     }
   },
   "TC07": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 07",
     "versions": {
-      "v2.2": "assets/capitulos/TC07_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC07_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC07_capitulo_v4.0.pdf"
     }
   },
   "TC08": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 08",
     "versions": {
-      "v2.2": "assets/capitulos/TC08_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC08_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC08_capitulo_v4.0.pdf"
     }
   },
   "TC09": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 09",
     "versions": {
-      "v2.2": "assets/capitulos/TC09_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC09_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC09_capitulo_v4.0.pdf"
     }
   },
   "TC10": {
     "enabled": true,
-    "active_version": "v2.2",
-    "badge": "Versión 2.2 Oficial",
+    "active_version": "v4.0",
+    "badge": "Versión 4.0 · edición 2",
     "title": "Capítulo 10",
     "versions": {
-      "v2.2": "assets/capitulos/TC10_capitulo_v2.2.pdf"
+      "v2.2": "assets/capitulos/TC10_capitulo_v2.2.pdf",
+      "v4.0": "assets/capitulos/TC10_capitulo_v4.0.pdf"
     }
   },
   "BC01": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC01_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC01_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC01_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC02": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC02_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC02_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC02_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC03": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC03_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC03_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC03_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC04": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC04_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC04_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC04_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC05": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC05_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC05_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC05_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC06": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC06_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC06_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC06_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC07": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC07_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC07_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC07_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC08": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC08_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC08_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC08_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC09": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC09_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC09_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC09_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC10": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC10_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC10_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC10_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC11": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC11_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC11_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC11_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC12": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC12_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC12_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC12_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC13": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC13_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC13_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC13_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   },
   "BC14": {
     "enabled": true,
-    "active_version": "v3.0",
+    "active_version": "v4.0",
     "versions": {
-      "v3.0": "assets/capitulos/BC14_capitulo_v3.0.pdf"
-    }
+      "v3.0": "assets/capitulos/BC14_capitulo_v3.0.pdf",
+      "v4.0": "assets/capitulos/BC14_capitulo_v4.0.pdf"
+    },
+    "badge": "Versión 4.0 · edición 2"
   }
 }

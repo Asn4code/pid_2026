@@ -1,140 +1,44 @@
-# Técnicas Computacionales en Biología — TC09
+# Técnicas Computacionales en Biología — TC09: Alineamiento, similitud y búsqueda en bases de datos
 
 | Campo | Valor |
 |---|---|
-| Versión | 0.1.0 |
+| Versión | v4.0 |
+| Edición | 2 |
 | Responsable | Álvaro Serrano Navarro |
-| Fecha | 2026-08-05 |
+| Fecha | 2026-09-04 |
 | Asignatura | Técnicas Computacionales en Biología |
 | Módulo | TC09 |
-| Sesión(es) | S25-S27 |
-| Tipo de sesión | T |
-| Resultados de guía | por definir |
-| Evidencia | por definir |
-| Diapositivas | por definir |
-| Uso de IA | por definir |
 
 ---
 
-## Pregunta guía
+## Pregunta del tema
 
-por definir
+Dos secuencias de organismos distintos se parecen. ¿Cuánto de ese parecido significa algo y cuánto era esperable por azar, dado el tamaño de la base de datos en la que las buscó?
 
-## Objetivo
+## Producto final
 
-Al finalizar el módulo, cada estudiante deberá ser capaz de:
+Una matriz de programación dinámica rellenada a mano y verificada contra el oráculo, un guion propio que recalcula la puntuación de un alineamiento columna a columna, y tres valores esperados que muestran qué cambia el tamaño de la base de datos y qué no.
 
-- [ ] Describir el concepto principal del módulo.
-- [ ] Aplicar el método o herramienta en un caso de práctica.
-- [ ] Interpretar el resultado y explicar sus límites.
-- [ ] Justificar una decisión técnica o biológica.
+## Qué hay en esta carpeta
 
-## Preguntas de recuperación y predicción
+- `datos/` · los datos de partida con su manifiesto de sumas.
+- `src/` · el generador del espacio de trabajo y el verificador de entrega.
+- `paquete/TC09_practica_v4.0.tar.gz` · todo lo anterior empaquetado, que es
+  la forma cómoda de descargarlo de una vez.
 
-Antes de la sesión, responde individualmente:
+## Cómo empezar
 
-1. ¿Qué sabes ya sobre por definir?
-2. ¿Qué esperas obtener de esta práctica?
+    tar -xzf TC09_practica_v4.0.tar.gz
+    cd TC-CH09
+    ./practice_assets/create_workspace.sh entrega
+    cd entrega
 
-> **Predicción sin IA:** Escribe tu respuesta antes de consultar herramientas de inteligencia artificial.
+El generador crea la plantilla de su módulo **sin implementar** y la tabla de
+respuestas con solo su cabecera. Antes de ejecutar nada, escriba lo que espera
+obtener: el contraste entre predicción y resultado es lo que se evalúa.
 
-## Dependencias
+## Cómo comprobar que ha terminado
 
-| Herramienta | Versión | Notas |
-|---|---|---|
-| Bash | 4+ | Shell estándar de Linux |
-| Python | 3.9+ | Solo si se requiere para la práctica |
-| Otras | — | Listar aquí |
+    ./practice_assets/check_entrega.sh entrega
 
-## Entorno de trabajo
-
-### Local (Linux)
-
-```bash
-# Descomprimir el starter package
-tar -xzf paquete/TC09_starter_v0.1.0.tar.gz
-cd TC09_starter
-```
-
-### Google Colab
-
-Abre el cuaderno `notebooks/TC09_colab.ipynb` en Google Colab. El cuaderno descarga automáticamente el paquete starter.
-
-## Caso mínimo
-
-El archivo `datos/mini.<ext>` contiene un caso pequeño para probar el flujo completo sin consumir tiempo de cómputo.
-
-```bash
-# Verificar integridad de los datos
-cd datos
-sha256sum -c SHA256SUMS
-sha256sum -c MANIFEST.sha256
-```
-
-## Práctica completa
-
-### Paso 1: Exploración inicial
-
-Ejecuta el caso mínimo y describe lo que observas.
-
-### Paso 2: Ejecución del análisis
-
-Sigue los pasos indicados en las instrucciones de clase.
-
-### Paso 3: Modificación y auditoría
-
-Cambia al menos un parámetro o dato y observa el efecto.
-
-### Paso 4: Interpretación
-
-Relaciona la salida con la pregunta biológica o computacional.
-
-## Validación
-
-Ejecuta los scripts de verificación:
-
-```bash
-# Verificar entorno y estructura
-bash src/smoke_test.sh
-
-# Verificar estructura de entrega
-bash src/verificar_entrega.sh
-```
-
-La salida debe mostrar `OK` en todos los tests.
-
-## README del estudiante
-
-Crea tu propia explicación en `entrega/README.md` siguiendo la plantilla:
-
-```bash
-cp entrega/plantilla_README.md entrega/README.md
-# Edita el archivo con tus respuestas
-```
-
-## Paridad local / nube
-
-| Aspecto | Local | Colab |
-|---|---|---|
-| Datos | `datos/` (mismo checksum) | Descargados automáticamente |
-| Scripts | `src/` | Copiados en celdas |
-| Salida | Mismo formato | Mismo formato |
-| Entrega | `entrega/` | `entrega/` |
-
-## Checklist de verificación
-
-Antes de entregar, verifica que cumples los 9 criterios de "módulo listo":
-
-- [ ] Capítulo narrativo terminado y PDF accesible generado.
-- [ ] Correspondencia con guía, resultados y sesiones comprobada.
-- [ ] Diapositivas seleccionadas como apoyo, no como único contenido.
-- [ ] Predicción, ejemplo, práctica y fallo/contraste probados.
-- [ ] Ejecución local/nube equivalente o contingencia institucional/precalculada.
-- [ ] Tarea, rúbrica o evidencia formativa configurada.
-- [ ] Vista de estudiante, enlaces, referencias y accesibilidad revisados.
-- [ ] Versión, responsable y fecha registrados.
-- [ ] Datos verificados con checksums (`sha256sum -c`).
-
----
-
-*Documento generado automáticamente por `generate_module_skeleton.sh`.*
+No pone nota. Rechaza la entrega vacía y el espacio de trabajo recién generado.

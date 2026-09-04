@@ -1,4 +1,0 @@
-# Phred quality scores
-# Q = -10 * log10(P_error)
-# Q10 = 90% | Q20 = 99% | Q30 = 99.9% | Q40 = 99.99%
-# Clinical: Q20 min, Q30 standard, Q40 high precision

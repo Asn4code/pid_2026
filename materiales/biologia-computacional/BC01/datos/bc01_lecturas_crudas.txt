@@ -1,0 +1,6 @@
+# Cuatro lecturas tal como salen de un fichero de trabajo ajeno: sin normalizar.
+# Una fila por lectura: identificador y secuencia separados por un tabulador.
+lect_01	atgcgatcg
+lect_02	ATGCNNATC
+lect_03	 ATGCGATC 
+lect_04	ATGCGAUCG

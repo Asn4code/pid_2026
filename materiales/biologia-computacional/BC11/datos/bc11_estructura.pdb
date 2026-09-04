@@ -1,0 +1,18 @@
+HEADER    ESTRUCTURA SINTETICA DOCENTE            03-SEP-26   BC11
+REMARK    Fichero sintetico de elaboracion propia, licencia CC0-1.0.
+REMARK    No procede de ninguna estructura depositada ni de ningun experimento.
+ATOM      1  N   ALA A   1      10.000  20.000  30.000  1.00 15.20           N
+ATOM      2  CA  ALA A   1      11.458  20.000  30.000  1.00 14.80           C
+ATOM      3  C   ALA A   1      12.009  21.420  30.000  1.00 15.10           C
+ATOM      4  O   ALA A   1      11.264  22.400  30.000  1.00 16.40           O
+ATOM      5  N   GLY A   2      13.331  21.530  30.000  1.00 18.90           N
+ATOM      6  CA  GLY A   2      13.994  22.820  30.000  1.00 21.30           C
+ATOM      7  C   GLY A   2      15.500  22.700  30.000  1.00 23.70           C
+ATOM      8  O   GLY A   2      16.100  21.630  30.000  1.00 25.10           O
+ATOM      9  N   VAL A   3      16.090  23.880  30.000  1.00 42.60           N
+ATOM     10  CA  VAL A   3      17.540  24.010  30.000  1.00 55.80           C
+ATOM     11  C   VAL A   3      18.050  25.440  30.000  1.00 68.30           C
+ATOM     12  O   VAL A   3      17.280  26.400  30.000  1.00 79.10           O
+HETATM   13  O   HOH A 101      20.000  25.000  30.000  1.00 35.00           O
+TER      14      VAL A   3
+END

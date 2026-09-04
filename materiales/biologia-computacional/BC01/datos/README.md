@@ -1,27 +1,23 @@
-# Datos de BC01 — Introducción, entorno y reproducibilidad
+# Datos docentes de BC-CH01
 
-## Contenido
+Los dos ficheros de esta carpeta son sintéticos. Los escribió Álvaro Serrano
+Navarro para este capítulo y se redistribuyen con licencia CC0-1.0 y manifiesto
+propio. No proceden de ningún organismo ni de ninguna base de datos pública: no
+representan secuencias reales.
 
-- `mini.tsv`: archivo pequeño (8 filas) con comandos UNIX esenciales, descripción, resultado esperado y error común. Útil para pruebas rápidas.
-- `caso_s01.tsv`: caso concreto de errores de entorno (PATH incorrecto, archivo inexistente, extensión equivocada).
-- `corpus/file_gen1.csv`: listado de archivos genómicos (tamano, tipo, fecha).
-- `corpus/file_proteinas.txt`: registro de secuencias proteicas.
-- `corpus/file_direcciones.txt`: inventario de archivos por ruta con notas de estado.
-- `corpus/file_config.csv`: parámetros de configuración de pipeline (recomendados y actuales).
-- `corpus/file_sample_info.csv`: información de muestras de secuenciación.
-- `corpus/file_phred_distribution.txt`: distribución de puntuaciones Phred por posición de lectura.
-- `corpus/file_unix_commands.md`: referencia de comandos UNIX para bioinformática.
-- `corpus/file_checksum_reference.txt`: explicación de checksums y su importancia.
+| Fichero | Contenido | Para qué |
+|---|---|---|
+| `bc01_secuencias.fasta` | cuatro registros FASTA, uno rico en GC, uno rico en AT, uno mosaico y uno de doce bases | perfiles de contenido GC y cálculo a mano |
+| `bc01_lecturas_crudas.txt` | cuatro lecturas sin normalizar: minúsculas, una `N`, espacios sobrantes y una `U` | poner a prueba la guarda de dominio |
 
-## Licencia
+El fichero de lecturas crudas es deliberadamente sucio. Tres de las cuatro
+lecturas deben ser rechazadas o normalizadas por su módulo, y decidir cuál es
+cada caso forma parte del trabajo: una `N` no es lo mismo que un espacio
+sobrante, y una `U` en un fichero que dice contener ADN es un aviso de que
+alguien mezcló ARN con ADN.
 
-Datos sintéticos creados para fines docentes. Licencia: CC0-1.0
-Autor: Álvaro Serrano Navarro (docente, Universidad Nebrija)
+Para comprobar que no ha modificado nada, desde esta carpeta:
 
-No son datos reales de experimentos o pacientes.
-
-## Verificación
-
-    cd datos && sha256sum -c SHA256SUMS && sha256sum -c MANIFEST.sha256
-
-Todos los archivos deben mostrar OK.
+```bash
+sha256sum -c manifest.sha256
+```

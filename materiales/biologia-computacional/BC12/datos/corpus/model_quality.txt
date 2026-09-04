@@ -1,7 +1,0 @@
-# Criterios de calidad para modelos por homología
-# Identity > 50%: modelo confiable
-# Identity 30-50%: modelo moderado (usar con precaución)
-# Identity < 30%: modelo dudoso (no usar para conclusiones)
-# RMSD < 2.0 Å: excelente
-# RMSD 2.0-4.0 Å: bueno
-# RMSD > 4.0 Å: pobre

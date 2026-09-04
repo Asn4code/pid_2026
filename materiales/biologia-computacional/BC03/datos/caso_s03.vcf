@@ -1,4 +1,0 @@
-CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
-chr11	5240736	rs59240328	G	A	142	PASS	missense_variant;GLU>VAL;clinical=VUS
-chr11	5240838	rs3393010	A	G	256	PASS	nonsense_variant;TRP>STOP;clinical=likely_pathogenic
-chr11	5238932	rs5877777	C	T	89	PASS	synonymous_variant;silent;clinical=benign

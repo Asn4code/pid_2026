@@ -1,6 +1,0 @@
-# Estructura del gen HBB (simulado)
-# Longitud total: ~860 bp (exon+intron+UTR)
-# 1-70      Exon 1  - Secuencia codificante 5'
-# 71-235    Introne - Secuencia intronica (simplificada)
-# 236-500   Exon 2  - Secuencia codificante 3'
-# 501-600   3' UTR  - Region no traducida 3'

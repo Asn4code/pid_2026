@@ -1,9 +1,0 @@
-ligand	docking_energy	binding_mode	key_residues	rank
-ligand_001	-95.2	A	ALA55,ASP98,GLU102,Tyr142,Asp98	1
-ligand_006	-91.5	A	ALA55,ASP98,LEU145,Tyr142	2
-ligand_003	-80.1	B	ASP98,GLU102,SER156	3
-ligand_007	-60.7	A	ALA55,GLU102,LEU145	4
-ligand_008	-55.2	C	GLU102,Tyr142,SER156	5
-ligand_005	-45.3	D	ALA55,LEU145,Tyr142	6
-ligand_002	-72.4	E	ASP98,Tyr142,ALA55	7
-ligand_004	-25.6	F	no_interactions_identified	8

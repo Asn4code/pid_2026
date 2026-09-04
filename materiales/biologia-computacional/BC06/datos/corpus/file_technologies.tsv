@@ -1,4 +1,0 @@
-technology	read_length	paired	platform	error
-Sanger	~1000	no	ABI 3730	substitution
-Illumina MiSeq	2x300	yes	Illumina	sub+indel
-Ion Torrent	400	no	Thermo	indel homopolimeros

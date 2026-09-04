@@ -1,7 +1,0 @@
-representacion	ejemplo	informacion_retentida	informacion_perdida
-Nombre completo	Glicina	Identidad inequívoca	Compactación; difícil de tabular
-Abreviatura de 3 letras	Gly	Legible, estándar	Nombre completo; masa o pI no implícitos
-Código de 1 letra	G	Compacto, ideal para secuencias	Significado no obvio para quien no conoce el código
-Solo cadena lateral	-CH3	Cómo se comporta químicamente	Química del esqueleto común; masa exacta
-Solo masa	75.07 Da	Comparación de tamaño	Identidad; no distingue isómeros (Leu vs Ile)
-Secuencia solo (letras)	GAVSK	Orden de la proteína	No se sabe qué aminoácidos son (requiere tabla)

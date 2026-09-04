@@ -1,27 +1,23 @@
-# Datos docentes de TC02 (Bash avanzado)
+# Datos docentes de TC-CH02
 
-Todos los ficheros de esta carpeta son sintéticos y han sido creados por
-Álvaro Serrano Navarro para TC02. Se dedican al dominio público mediante
-CC0-1.0. No representan muestras ni secuencias biológicas reales.
+Todos los ficheros son sintéticos, creados por Álvaro Serrano Navarro para el
+módulo legacy `LEG-TC01` y dedicados a dominio público mediante CC0-1.0
+(`sources_manifest.csv`, `TC02-C5-DATA`). No representan secuencias ni
+registros biológicos reales.
 
-## Recursos
-
-| Recurso | Versión | Finalidad |
+| Recurso | Contenido | Finalidad |
 |---|---|---|
-| `mini.fasta` | 0.1.0 | FASTA mínimo multilínea para la comprobación rápida de S04 |
-| `caso.fasta` | 0.1.0 | caso conocido de dos registros para transcripción, longitud y GC |
-| `corpus/` | 0.1.0 | práctica integradora S04-S05: 5 FASTA con secuencias en varias líneas |
+| `tc02_caso_regex.fasta` | 2 registros, 2 líneas de secuencia cada uno | caso de oro con coincidencias y no coincidencias conocidas para `grep -E` |
+| `corpus/` | 21 ficheros: 11 `.fasta`, 6 `.txt`, 4 `.log` | práctica integradora de automatización (tuberías, `grep`, `cut`/`sort`/`uniq`/`tr`, scripting y `awk`) |
 
-Los FASTA tienen la secuencia **repartida en varias líneas** a propósito: es la
-situación en la que `wc -l` o un `grep` por línea fallan y en la que `awk`, al
-acumular hasta la siguiente cabecera, sí da la longitud y el contenido GC
-correctos. `adn_3.fasta` mide 34 bases repartidas en cuatro líneas. Uno de los
-ficheros incluye espacios en el nombre para comprobar el uso de comillas.
+Propiedades fijas del corpus (oráculo de regresión, no constantes que el
+script deba llevar codificadas): 21 ficheros regulares; una cabecera `>` por
+FASTA; `corpus/file_4.fasta` tiene 19 líneas y `corpus/file_5.fasta` tiene 21;
+`corpus/muestra con espacio.fasta`, `corpus/notas campo.txt` y
+`corpus/registro final.log` contienen espacios en el nombre.
 
-`MANIFEST.sha256` fija el caso conocido y los cinco ficheros del corpus.
-`SHA256SUMS` conserva la suma independiente del fichero mínimo de S04.
+`manifest.sha256` fija las sumas de los 22 ficheros. Desde esta carpeta:
 
 ```bash
-sha256sum -c SHA256SUMS
-sha256sum -c MANIFEST.sha256
+sha256sum -c manifest.sha256
 ```

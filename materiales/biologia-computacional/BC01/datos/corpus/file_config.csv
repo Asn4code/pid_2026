@@ -1,6 +1,0 @@
-parámetro	valor	recomendado	notas
-threads	4	8	aumenta si RAM disponible
-quality_threshold	20	30	filtro Phred mínimo
-min_mapq	30	60	calidad de mapeo
-max_mismatches	2	0	errores permitidos por lectura
-read_length	150	150	longitud de las lecturas

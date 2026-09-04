@@ -1,8 +1,0 @@
-# Protocolo de cribado virtual (simulado)
-# 1. Preparación del receptor (protónate pH 7.4, minimización)
-# 2. Preparación librería (generar conformeros, protonar)
-# 3. Docking (pocket definido o exhaustivo)
-# 4. Ranking por energía de enlace (kcal/mol)
-# 5. Análisis interacciones (HB, electrostáticas, hidrofóbicas)
-# 6. Filtrado SMILES (reacciones, reglas Lipinski)
-# 7. Priorización (top 10 para validación experimental)

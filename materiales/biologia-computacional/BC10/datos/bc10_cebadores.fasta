@@ -1,0 +1,10 @@
+>cebador_modelo diseño directo con cola EcoRI
+GGAATTCATGGTGAGCAAGGGCGAG
+>cebador_reverso complementario con cola BamHI
+GGATCCTTACTTGTACAGCTCGTCCAT
+>cebador_rico_gc candidato descartado por exceso de GC
+GCGCGGCGCCGGCGCGGCCGCGGCG
+>cebador_pobre_gc candidato descartado por defecto de GC
+AATTATTAATTTAATATTAAATTAT
+>cebador_corto fuera del dominio de la fórmula
+ATGCAT

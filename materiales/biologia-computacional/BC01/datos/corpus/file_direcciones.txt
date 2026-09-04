@@ -1,7 +1,0 @@
-# Archivos por ruta simulada
-/home/datos/genomas/corrupted.fastq	1.2 GB	error de lectura en posiciones 50000-50200
-/home/datos/genomas/sample_001_R1.fastq	4.5 GB	ok
-/home/datos/genomas/sample_001_R2.fastq	4.5 GB	ok
-/home/datos/genomas/sample_002_R1.fastq	0 bytes	archivo vacío, posible error de descarga
-/home/datos/outputs/mapping.log	125 KB	multiple mapping detected in 12% of reads
-/home/datos/outputs/varscan.log	67 KB	380 high quality variants called

@@ -1,0 +1,13 @@
+##gff-version 3
+##sequence-region chr1 1 12000
+chr1	ensembl	gene	1200	3400	.	+	.	ID=gene:BRCA1x;Name=BRCA1x;biotype=protein_coding
+chr1	ensembl	mRNA	1200	3400	.	+	.	ID=transcript:T01;Parent=gene:BRCA1x
+chr1	ensembl	exon	1200	1580	.	+	.	Parent=transcript:T01
+chr1	ensembl	exon	2100	2460	.	+	.	Parent=transcript:T01
+chr1	ensembl	exon	3050	3400	.	+	.	Parent=transcript:T01
+chr1	ensembl	gene	5200	6100	.	-	.	ID=gene:TP53x;Name=TP53x;biotype=protein_coding
+chr1	ensembl	mRNA	5200	6100	.	-	.	ID=transcript:T02;Parent=gene:TP53x
+chr1	ensembl	exon	5200	5640	.	-	.	Parent=transcript:T02
+chr1	ensembl	exon	5900	6100	.	-	.	Parent=transcript:T02
+chr1	ensembl	gene	8000	8450	.	+	.	ID=gene:MIRx;Name=MIRx;biotype=lncRNA
+chr1	ensembl	exon	8000	8450	.	+	.	Parent=transcript:T03

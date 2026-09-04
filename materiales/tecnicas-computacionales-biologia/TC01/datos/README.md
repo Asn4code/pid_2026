@@ -1,30 +1,24 @@
-# Datos docentes de TC01
+# Datos docentes de TC-CH01
 
-Todos los ficheros de esta carpeta son sintéticos y han sido creados por
-Álvaro Serrano Navarro para TC01. Se dedican al dominio público mediante
-CC0-1.0. No representan muestras ni secuencias biológicas reales.
+Todos los ficheros de esta carpeta son sintéticos. Proceden del corpus propio
+CC0-1.0 creado por Álvaro Serrano Navarro para el módulo legacy `LEG-TC01`
+(`sources_manifest.csv`, `TC01-C5-DATA`) y se redistribuyen aquí con manifiesto
+propio para el capítulo. No representan secuencias, textos ni registros
+biológicos o clínicos reales.
 
-## Recursos
+| Fichero | Líneas | Finalidad |
+|---|---:|---|
+| `tc01_mini.fasta` | 6 | primer contacto: `pwd`, `ls`, `cat`, `head`/`tail` sobre un fichero mínimo |
+| `tc01_sample.fasta` | 19 | contraste de `wc -l` con un conteo manual y con `head -n 5`/`tail -n 5` |
+| `tc01_sample.log` | 3 | ejemplo de `file` distinguiendo texto de otros tipos y de inspección con `less` |
+| `tc01_notas campo.txt` | 3 | nombre con espacio: obliga a entrecomillar la ruta en toda orden |
 
-| Recurso | Versión | Finalidad |
-|---|---|---|
-| `mini.fasta` | 0.1.0 | navegación e inspección inicial de S01 |
-| `caso_s02.fasta` | 0.1.0 | caso conocido de dos registros para líneas, coincidencias y símbolos |
-| `corpus/` | 0.1.0 | práctica integradora S02-S03 con 21 ficheros |
-
-El corpus contiene 11 FASTA, 6 TXT y 4 LOG. Incluye nombres con espacios para
-comprobar el uso de comillas. `file_4.fasta` tiene 19 líneas y
-`file_5.fasta`, 21; el caso de 20 líneas debe construirlo cada estudiante.
-
-`MANIFEST.sha256` fija `caso_s02.fasta` y los 21 ficheros del corpus.
-`SHA256SUMS` conserva la suma independiente del fichero mínimo de S01.
-
-Desde esta carpeta:
+`manifest.sha256` fija las cuatro sumas. Desde esta carpeta:
 
 ```bash
-sha256sum -c SHA256SUMS
-sha256sum -c MANIFEST.sha256
+sha256sum -c manifest.sha256
 ```
 
-Los datos permiten probar órdenes y scripts, pero una extensión de fichero y
-un checksum no validan por sí solos la semántica de un formato biológico.
+Los datos permiten practicar órdenes de inspección sin escritura ni scripting;
+esa parte pertenece a `TC-CH02`, que reutiliza el corpus completo de 21
+ficheros bajo la misma licencia.

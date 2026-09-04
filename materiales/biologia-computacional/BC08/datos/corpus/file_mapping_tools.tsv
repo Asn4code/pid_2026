@@ -1,4 +1,0 @@
-tool	algorithm	read_type	speed	accuracy	best_for
-BWA-MEM	BWT-index	paired/single	med	high	NGS short reads
-Bowtie2	BWT-index	paired/single	high	high	genome alignment
-minimap2	hash/kmer	long/short	high	med	long reads

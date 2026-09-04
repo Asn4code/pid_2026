@@ -1,6 +1,0 @@
-# Niveles de estructura proteica
-# Primaria: Secuencia lineal de aminoacidos
-# Secundaria: alpha-helix, beta-sheet (puentes H backbone)
-# Terciaria: Plegamiento 3D de una cadena (interacciones laterales)
-#   hidrofobicos (internos), puentes H, disulfuros, salt bridges
-# Cuaternaria: multiples subunidades (hemoglobina = 4 cadenas)
