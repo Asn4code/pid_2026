@@ -10,11 +10,9 @@ Bienvenido al espacio de la asignatura **Técnicas Computacionales en Biología*
 !!! warning "Aviso Institucional de Entrega"
     **Campus Virtual como Sistema Oficial:** La entrega, evaluación y calificación de todas las actividades prácticas se realiza exclusivamente a través del Campus Virtual. Este portal ofrece la documentación interactiva y los kits de práctica descargables.
 
-!!! info "📖 Libro de Texto Consolidado (v4.0 · edición 2)"
-    El manual completo de la asignatura, con los diez capítulos y sus anexos
-    prácticos en un solo PDF etiquetado y accesible:
-
-    [📥 Descargar Libro Completo de Técnicas Computacionales en Biología (187 págs · PDF)](../assets/libros/TC-libro_v4.0.pdf){ .md-button .md-button--primary }
+!!! info "📖 Material de estudio por capítulos (v4.0 · edición 2)"
+    Los diez capítulos y sus anexos prácticos se consultan y descargan desde el
+    tema correspondiente.
 
 ---
 

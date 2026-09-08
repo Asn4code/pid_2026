@@ -23,9 +23,7 @@ capítulo. Los cambios con más efecto sobre el trabajo del alumnado:
 
 ## Novedades de esta versión
 
-- **Los dos libros completos en un solo PDF**, etiquetado y conforme a PDF/UA-2:
-  `docs/assets/libros/TC-libro_v4.0.pdf` (187 páginas) y `BC-libro_v4.0.pdf`
-  (207 páginas).
+- **PDF accesibles por capítulo**, disponibles desde el tema correspondiente.
 - **TC10 · Aprendizaje automático** estrena materiales de práctica.
 - **Paquetes prácticos por capítulo** en `materiales/<asignatura>/<COD>/paquete/`,
   con el generador del espacio de trabajo, los datos con su manifiesto de sumas,
@@ -41,3 +39,6 @@ tocado: la edición 2 no los genera y se mantienen como estaban.
 El material de corrección —claves, soluciones de referencia y valores
 esperados— no se publica en este repositorio. La herramienta de volcado aborta
 si detecta cualquier ruta de clave.
+
+Los PDF consolidados de los libros se conservan como artefactos internos de
+integración y auditoría y tampoco se publican en este repositorio.
