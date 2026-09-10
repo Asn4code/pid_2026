@@ -14,9 +14,9 @@ Bienvenido al portal de la asignatura **Biología Computacional** (Curso 2026–
 
 -   **Bloque I: Fundamentos Biológicos y Biofísicos**
     ---
-    - [BC01 · Dogma Central y Representación Digital](bc01.md)
-    - [BC02 · Biofísica de Proteínas y Estructura Secundaria](bc02.md)
-    - [BC03 · Arquitectura del Genoma y Variación de Secuencia](bc03.md)
+    - [BC01 · Información biológica y representación en Python](bc01.md)
+    - [BC02 · Genética y genómica](bc02.md)
+    - [BC03 · Expresión génica, código y traducción](bc03.md)
     - [BC04 · Transcripción, Splicing y Expresión Génica](bc04.md)
     - [BC05 · Plegamiento y Geometría Macromolecular](bc05.md)
 
