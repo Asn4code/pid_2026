@@ -1,3 +1,0 @@
-step	result
-inspect	OK
-verify	OK

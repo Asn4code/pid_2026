@@ -1,3 +1,0 @@
-sample	condition	value
-A01	control	12
-A02	treated	18

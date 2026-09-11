@@ -1,3 +1,0 @@
-id	status
-R01	OK
-R02	REVIEW

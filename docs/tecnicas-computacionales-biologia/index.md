@@ -1,44 +1,41 @@
 ---
 title: Técnicas Computacionales en Biología
-description: Programa docente, bloques temáticos y prácticas de laboratorio (v4.0 · edición 2).
+description: Programa docente y bloques temáticos de la edición 2.
 ---
 
 # Técnicas Computacionales en Biología (v4.0 · edición 2)
 
 Bienvenido al espacio de la asignatura **Técnicas Computacionales en Biología** dentro del Proyecto de Innovación Docente (PID 2025–2026).
 
-!!! warning "Aviso Institucional de Entrega"
-    **Campus Virtual como Sistema Oficial:** La entrega, evaluación y calificación de todas las actividades prácticas se realiza exclusivamente a través del Campus Virtual. Este portal ofrece la documentación interactiva y los kits de práctica descargables.
-
 !!! info "📖 Material de estudio por capítulos (v4.0 · edición 2)"
-    Los diez capítulos y sus anexos prácticos se consultan y descargan desde el
-    tema correspondiente.
+    Los diez capítulos teóricos se consultan y descargan desde el tema
+    correspondiente. Los anexos prácticos están retirados temporalmente y se
+    conservan como material legado para revisión docente.
 
 ---
 
-## 📚 Mapa de Temas y Laboratorios
+## 📚 Mapa de temas
 
 ### 🔷 Bloque I: Entorno, Sistemas y Algoritmos Fundamentales
-- [**TC01** · Entorno, Sistemas y Diagnóstico POSIX](tc01.md)
-- [**TC02** · Procesamiento de Texto y Pipelines Streaming](tc02.md)
-- [**TC03** · Diseño de Algoritmos y Complejidad Asintótica](tc03.md)
+- [**TC01** · Entorno Linux, Shell y reproducibilidad](tc01.md)
+- [**TC02** · Bash, automatización y procesamiento de texto](tc02.md)
+- [**TC03** · Algoritmos, complejidad y estrategias de resolución](tc03.md)
 
 ### 🔶 Bloque II: Estructuras de Datos, Búsqueda y Ordenación
-- [**TC04** · Estructuras de Datos Lineales y Memoria](tc04.md)
-- [**TC05** · Estructuras No Lineales, Árboles y Grafos](tc05.md)
-- [**TC06** · Búsqueda y Algoritmos de Ordenación](tc06.md)
+- [**TC04** · Representación en memoria y estructuras lineales](tc04.md)
+- [**TC05** · Tablas hash, árboles y grafos](tc05.md)
+- [**TC06** · Búsqueda, ordenación y evaluación experimental](tc06.md)
 
 ### 🟣 Bloque III: Información, Modelos Probabilísticos y Aprendizaje
-- [**TC07** · Teoría de la Información y Análisis de Secuencias](tc07.md)
-- [**TC08** · Cadenas de Markov y Modelos Probabilísticos](tc08.md)
-- [**TC09** · Alineamiento de Secuencias y Programación Dinámica](tc09.md)
-- [**TC10** · Redes Neuronales para Bioinformática](tc10.md)
+- [**TC07** · Medir sorpresa e incertidumbre](tc07.md)
+- [**TC08** · Bayes, cadenas de Markov y modelos ocultos](tc08.md)
+- [**TC09** · Alineamiento, similitud y búsqueda en bases de datos](tc09.md)
+- [**TC10** · Redes neuronales para bioinformática](tc10.md)
 
 ---
 
-## 🎯 Metodología del «Trío Pedagógico»
+## 🎯 Recursos de cada tema
 
-Cada tema integra de forma coordinada:
-1. 📊 **Figura conceptual vectorial** de alta resolución adaptada de las diapositivas docentes.
-2. 📐 **Algoritmo formal en pseudocódigo** con contratos, invariantes y análisis asintótico $O(T), O(S)$.
-3. 💻 **Kit de laboratorio descargable** con verificación automatizada `DELIVERY_OK` ($SEED=42$).
+Cada tema integra figuras conceptuales, algoritmos formales, contratos,
+invariantes y análisis de complejidad. Los kits de laboratorio no forman parte
+de esta publicación mientras se revisa el material legado.

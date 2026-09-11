@@ -1,3 +1,0 @@
-gene	count
-geneA	7
-geneB	11
